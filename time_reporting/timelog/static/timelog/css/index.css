@@ -1,0 +1,31 @@
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+.container {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container h1 {
+    color: green;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}

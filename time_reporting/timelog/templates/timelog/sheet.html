@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'timelog/css/sheet.css' %}">
+
+<div class="container">
+  <h1>Monthly Employee Timesheet</h1>
+  <p>Employee Name: <b>{{ context.user.name }}</b></p>
+  <div class="form-group">
+    <form method="post" action="{% url 'timelog:create' %}">
+    {% csrf_token %}
+    <div class="my">
+      <p>{{ form.month.label_tag }}
+        <select name="month" id="month">
+          <option value="{{ context.m }}" selected>
+          {{ context.m }}
+          </option>
+        </select>
+        {{ form.year.label_tag }}
+        <select name="year" id="year">
+          <option value="{{ context.y }}" selected>
+          {{ context.y }}
+          </option>
+        </select>
+      </p>
+    </div>
+    <div class="hours" id="hours">
+      {% if data %}
+        {% for d in data %}
+        <p>Month {{ d.month }} Year {{ d.year }}</p>
+        <p>{{ form.week1.label_tag }}{{ d.week1 }}</p>
+        <span class="red">{{ form.week1.errors|striptags }}</span>
+        <p>{{ form.week2.label_tag }}{{ d.week2 }}</p>
+        <span class="red">{{ form.week2.errors|striptags }}</span>
+        <p>{{ form.week3.label_tag }}{{ d.week3 }}</p>
+        <span class="red">{{ form.week3.errors|striptags }}</span>
+        <p>{{ form.week4.label_tag }}{{ d.week4 }}</p>
+        <span class="red">{{ form.week4.errors|striptags }}</span>
+        <p>{{ form.total_hours.label_tag }}{{ d.total_hours }}</p>
+        <p>{{ form.status.label_tag }}{% if d.status == "Submitted" %}If you want to edit the timesheet, please go<a href="{% url 'timelog:update' pk=d.id %}"> here</a>{% else %}Your timesheet has been marked as {{ d.status }}{% endif %}</p>
+        {% endfor %}
+      {% else %}
+        <p>{{ form.week1.label_tag }}{{ form.week1 }}</p>
+        <span class="red">{{ form.week1.errors|striptags }}</span>
+        <p>{{ form.week2.label_tag }}{{ form.week2 }}</p>
+        <span class="red">{{ form.week2.errors|striptags }}</span>
+        <p>{{ form.week3.label_tag }}{{ form.week3 }}</p>
+        <span class="red">{{ form.week3.errors|striptags }}</span>
+        <p>{{ form.week4.label_tag }}{{ form.week4 }}</p>
+        <span class="red">{{ form.week4.errors|striptags }}</span>
+        <p>{{ form.total_hours.label_tag }}{{ form.total_hours }}</p>
+        <div class="submit-button"><button type="submit" id="submit_button">Submit Timesheet</button></div>
+      {% endif %}
+    </div>
+    <a href="{% url 'timelog:index' %}">Back to Home</a>
+    <div>
+    {% if success %}
+    {{ success }}
+    {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

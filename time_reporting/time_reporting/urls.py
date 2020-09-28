@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+
 urlpatterns = [
     path('', include('user_auth.urls')),
+    path('timelog/', include(('timelog.urls', 'timelog'), namespace='timelog')),
     path('admin/', admin.site.urls),
 ]

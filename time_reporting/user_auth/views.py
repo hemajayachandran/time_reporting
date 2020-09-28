@@ -1,30 +1,51 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
-from django.contrib.auth import authenticate
-from django.views.generic import TemplateView
-from django.contrib.auth.views import LoginView
-from .forms import LoginForm, SignUpForm
+from .forms import SignUpForm, LoginForm
 from .models import Employee
+from django.contrib.auth import authenticate
+
+#from .models import Employee
 
 # Create your views here.
-class HomeView(TemplateView):
-    template_name = 'home.html'
+
 
 def signup(request):
+    form = SignUpForm()
+    success = None
     if request.method == 'POST':
+        if Employee.objects.filter(login=request.POST['login']).exists():
+            error = "This username is already taken"
+            return render(request, 'registration/signup.html', {'form': form, 'error': error})
         form = SignUpForm(request.POST)
-        if form.is_valid():
-            form.save()
-            name = form.cleaned_data.get('name')
-            login = form.cleaned_data.get('login')
-            password = form.cleaned_data.get('password')
-            Employee.objects.create(name=name, login=login, password=password)
-            return redirect('loginto')
+        new_user = form.save(commit=False)
+        new_user.save()
+        success = "New user account created successfully"
+        return redirect('loginto')
+    return render(request, 'registration/signup.html', {'form': form, 'success': success})
+
+def login(request):
+    form = LoginForm()
+    error = None
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        username = request.POST['login']
+        password = request.POST['password']
+        if Employee.objects.filter(login=username, password=password).exists():
+            user = Employee.objects.get(login=username, password=password)
+            request.session['user_id'] = user.reference
+            return redirect('timelog:index')
+    return render(request, 'registration/login.html', {'form': form})
+
+def get_user(request):
+    return Employee.objects.get(reference=request.session['user_id'])
+
+def home(request):
+    if 'user_id' in request.session:
+        user = get_user(request)
+        return render(request, 'home.html', {'user': user})
     else:
-        form = SignUpForm()
-    return render(request, 'registration/signup.html', {'form': form})
+        return redirect('loginto')
 
-
-class LoginPageView(LoginView):
-    template_name = 'registration/login.html'
-    authentication_form = LoginForm
+def logout(request):
+    if 'user_id' in request.session:
+        del request.session['user_id']
+    return redirect('loginto')

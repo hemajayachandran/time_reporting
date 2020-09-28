@@ -1,10 +1,27 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-<p>Welcome to signup page</p>
 
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Sign up</button>
+
+<link rel="stylesheet" type="text/css" href="{% static 'registration/css/signup.css' %}">
+
+<div class="SignUpPage" action="{% url 'signup' %}">
+  <h1>Monthly Employee Timesheet</h1>
+  <h3>Sign Up</h3>
+
+  <div class="form-group">
+    <form method="post">
+      {% csrf_token %}
+      <div class="user-data">
+        <p>{{ form.name.label_tag }}<span>&nbsp</span>{{ form.name }}</p>
+        <p>{{ form.login.label_tag }}<span>&nbsp</span>{{ form.login }}</p>
+        <p>{{ form.password.label_tag }}<span>&nbsp</span>{{ form.password }}</p>
+      </div>
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="{% url 'loginto' %}">Login</a></p>
+    </form>
+  </div>
+</div>
+
 {% endblock %}

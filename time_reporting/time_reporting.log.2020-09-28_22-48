@@ -1,0 +1,9 @@
+[28/Sep/2020 22:48:45] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:48:45] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3264
+[28/Sep/2020 22:48:45] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 390
+[28/Sep/2020 22:49:07] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:49:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3245
+[28/Sep/2020 22:49:07] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 22:49:28] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:49:28] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3449
+[28/Sep/2020 22:49:28] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0

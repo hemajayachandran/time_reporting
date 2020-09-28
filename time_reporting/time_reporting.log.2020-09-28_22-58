@@ -1,0 +1,48 @@
+[28/Sep/2020 22:57:33] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:57:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:57:34] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 390
+[28/Sep/2020 22:57:36] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 22:57:36] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=C5JpY0wr7Tg7czgAMz71GRRKM7yd7lNQ8wn7hcTgdxyIKuMnWdCQJqBA9Td0k8hW&month=01&year=2015 HTTP/1.1" 200 1574
+[28/Sep/2020 22:57:36] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 22:57:36] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 22:57:38] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 22:57:38] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[28/Sep/2020 22:57:41] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:57:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:57:41] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 22:57:43] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 22:57:43] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Evl09MQAvyVdVipa6g9MgbrK2AoKwsSlaWZIsYdpBcdOtdVXgUEBjKbApm3xJfmr&month=01&year=2015 HTTP/1.1" 200 1574
+[28/Sep/2020 22:57:43] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 22:57:43] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 22:57:45] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 22:57:45] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[28/Sep/2020 22:57:47] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:57:47] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:57:47] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 22:57:49] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 22:57:49] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=BbxtVLPST8THu0FE8OOfgayu1yVXwFNu7CbbeXcHZMbi2Vbrisj4jJikokAKJshA&month=01&year=2015 HTTP/1.1" 200 1574
+[28/Sep/2020 22:57:49] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 22:57:49] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 22:57:51] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:57:51] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:57:51] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 22:57:53] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 22:57:53] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=sUtZNJGeRY1wYJbrfv31vnkq7k1SkpJlYl7H6V33XCj7wEHep9yQyW4gu6GFxcdr&month=01&year=2015 HTTP/1.1" 200 1574
+[28/Sep/2020 22:57:53] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 22:57:53] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 22:57:55] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:57:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:57:55] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 22:57:58] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 22:57:58] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=v3jGwcKngLtqaVipVL6HYyaxWcK6c0ps1uXoPo7cmpL1IQOc5pBw17UnjYpTpNTy&month=02&year=2015 HTTP/1.1" 200 1535
+[28/Sep/2020 22:57:58] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 22:57:58] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 22:58:01] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:58:01] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:58:02] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 22:58:05] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[28/Sep/2020 22:58:05] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[28/Sep/2020 22:58:23] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[28/Sep/2020 22:58:23] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 22:58:23] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 22:58:23] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0

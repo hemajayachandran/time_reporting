@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #own apps
     'user_auth',
+    'timelog',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,6 @@ DATABASES = {
     }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
@@ -121,3 +121,70 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'root'),
+]
+
+# Define maximum hours an employee can report per week
+MAX_HOURS = 40.00
+
+# Define the reporting date of current year in YYYY-MM-DD format
+REPORTING_DATE = '2020-06-06'
+
+# Define a monthly and yearly logger to create log files monthly and yearly. BackupCount set to 10.
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format' : "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s",
+            'datefmt' : "%d/%b/%Y %H:%M:%S"
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.TimedRotatingFileHandler',
+            'filename': 'time_reporting.log',
+            'when': 'D',
+            'interval': 30,
+            'backupCount': 10,
+            'formatter': 'verbose'
+        },
+        'yearly_file': {
+        'level': 'INFO',
+        'class': 'logging.handlers.TimedRotatingFileHandler',
+        'filename': 'yearly_time_reporting.log',
+        'when': 'D',
+        'interval': 365,
+        'backupCount': 10,
+        'formatter': 'verbose'
+        },
+        'error_file':{
+            'level': 'ERROR',
+            'class': 'logging.FileHandler',
+            'filename': 'error.log',
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers':['file'],
+            'propagate': True,
+            'level':'INFO',
+        },
+        'timelog': {
+            'handlers': ['file'],
+            'level': 'INFO',
+        },
+        'errors': {
+            'handlers': ['error_file'],
+        },
+    }
+}

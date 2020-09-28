@@ -1,28 +1,21 @@
 from django import forms
+#from django.contrib.auth.models import User
 from .models import Employee
 
-class SignUpForm(forms.ModelForm):
-    name = forms.CharField(max_length=100)
-    login = forms.CharField(max_length=200)
-    password = forms.CharField(max_length=20)
+passwordInputWidget = {
+    'password': forms.PasswordInput(),
+}
 
+class SignUpForm(forms.ModelForm):
+    #login = forms.EmailField(label='username', max_length=200, help_text="Enter your company email id")
     class Meta:
         model = Employee
-        fields = [
-            'name',
-            'login',
-            'password'
-        ]
+        fields = '__all__'
+        widgets = [passwordInputWidget]
 
 class LoginForm(forms.ModelForm):
-    login = forms.CharField(label="username", max_length=200)
-    password = forms.CharField(max_length=20)
-
+    login = forms.EmailField(label='Username', max_length=200, help_text="Enter your company email id")
     class Meta:
         model = Employee
-        fields = [
-            'login',
-            'password'
-        ]
-    def __init__(self, request, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        fields = ['login', 'password']
+        widgets = [passwordInputWidget]

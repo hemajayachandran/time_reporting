@@ -1,0 +1,14 @@
+[28/Sep/2020 23:01:01] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:01:02] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=E8k6sy4CSuqGTb21JabCK0Oebv1ZfzjzazYOLKrrY8Ihr6yOTOGrNzy4yhGMsmNF&month=01&year=2015 HTTP/1.1" 200 1574
+[28/Sep/2020 23:01:02] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:01:02] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:01:03] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:01:03] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[28/Sep/2020 23:01:05] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:01:05] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:01:05] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 23:01:06] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[28/Sep/2020 23:01:06] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[28/Sep/2020 23:01:15] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[28/Sep/2020 23:01:15] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:01:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458

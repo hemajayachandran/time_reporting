@@ -1,35 +1,28 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block content %}
-<p>Welcome to login page</p>
+<link rel="stylesheet" type="text/css" href="{% static 'registration/css/login.css' %}">
 
-{% if form.errors %}
-<p>Your username and password didn't match. Please try again.</p>
-{% endif %}
-{% if next %}
-  {% if user.is_authenticated %}
-  <p>Your account doesn't have access to this page. To proceed,
-    please login with an account that has access.</p>
-  {% else %}
-  <p>Please login to see this page.</p>
+<div class="LoginPage">
+  <h1>Monthly Employee Timesheet</h1>
+  <h3>Login</h3>
+  {% if form.errors %}
+  <p class="wrong-credential">Your username and password didn't match. Please try again.</p>
   {% endif %}
-{% endif %}
-
-<form method="post" action="{% url 'loginto' %}">
-{% csrf_token %}
-<table>
-<tr>
-    <td>{{ form.login.label_tag }}</td>
-    <td>{{ form.login }}</td>
-</tr>
-<tr>
-    <td>{{ form.password.label_tag }}</td>
-    <td>{{ form.password }}</td>
-</tr>
-</table>
-
-<input type="submit" value="login">
-<input type="hidden" name="next" value="{{ next }}">
-</form>
+  <div class="form-group">
+    <form method="post" action="{% url 'loginto' %}">
+    {% csrf_token %}
+    <div class="user-pass">
+      <p>{{ form.login.label_tag }}<span>&nbsp</span>{{ form.login }}</p>
+      <p>{{ form.password.label_tag }}<span>&nbsp</span> {{ form.password }}</p>
+    </div>
+    <input type="submit" value="Login">
+    <input type="hidden" name="next" value="{{ next }}">
+    <p>Don't have an account? <a href="{% url 'signup' %}">Sign up</a></p>
+    </form>
+  </div>
+</div>
 
 {% endblock %}

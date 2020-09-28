@@ -1,8 +1,12 @@
 from django.urls import path
-from .views import HomeView, LoginPageView, signup
+from .views import home, login, signup, logout
+from django.conf.urls.static import static
+from time_reporting import settings
 
 urlpatterns = [
-    path('home/', HomeView.as_view(), name="home"),
-    path('login/', LoginPageView.as_view(), name="loginto"),
+    path('login/', login, name="loginto"),
     path('signup/', signup, name="signup"),
+    path('home/', home, name="home"),
+    path('logout/', logout, name="logout"),
 ]
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
