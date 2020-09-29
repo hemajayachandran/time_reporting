@@ -1,1 +1,14 @@
 Time Reporting App
+
+Installation
+
+1. Clone this repository: git clone git@github.com:hemajayachandran/time_reporting.git
+2. cd into time_reporting
+3. Install Python 3.8.5
+4. Install virtualenv "python3 -m pip install --user virtualenv"
+5. Create a new virtual environment "python3 -m venv <virtualenvname>"
+6. Activate virtualenv "source <virtualenvname>/bin/activate"
+7. Install Django==2.1.5
+8. Run "python3 manage.py runserver" and open the server mentioned in the terminal console "http://127.0.0.1:8000/login"
+
+If you see the login page, the app deployed successfully.
