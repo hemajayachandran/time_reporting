@@ -8,7 +8,7 @@ Installation
 4. Install virtualenv "python3 -m pip install --user virtualenv"
 5. Create a new virtual environment "python3 -m venv <virtualenvname>"
 6. Activate virtualenv "source <virtualenvname>/bin/activate"
-7. Install Django==2.1.5
+7. Install Django==2.1.5 (pip3 install Django==2.15) or pip
 8. Run "python3 manage.py runserver" and open the server mentioned in the terminal console "http://127.0.0.1:8000/login"
 
 If you see the login page, the app deployed successfully.
@@ -17,6 +17,7 @@ If you see the login page, the app deployed successfully.
 10. Create an admin login by running python3 manage.py createsuperuser
 11. Open http://127.0.0.1:8000/admin with the admin credentials
 12. Go to Hours, you can open the corresponding record and mark it as 'Completed'. After this user won't be able to edit the timesheet.
+13. user_auth and timelog are the two apps within this application
 
 Functional requirements
 
