@@ -5,10 +5,6 @@ from user_auth.models import Employee
 from .models import Hours
 from time_reporting import settings
 import logging
-from django.views import View
-from django.views.generic.list import ListView
-from django.core.paginator import Paginator
-
 
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
@@ -16,6 +12,7 @@ logger_e = logging.getLogger('errors')
 
 # Create your views here.
 
+# Function for homepage
 def index(request, *args, **kwargs):
     form = TimesheetForm(request.POST or None)
     context = {}
@@ -31,6 +28,7 @@ def index(request, *args, **kwargs):
         return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
     return redirect('loginto')
 
+# Function to submit a new timesheet
 def create(request, *args, **kwargs):
     form = TimesheetForm(request.POST or None)
     if 'user_id' in request.session:
@@ -59,6 +57,7 @@ def create(request, *args, **kwargs):
             return redirect('timelog:index')
     return render(request, 'timelog/sheet.html', {'form': form, 'context': context, 'data': data})
 
+# Function to update a submitted timesheet.
 def update(request, pk):
     form = TimesheetForm()
     context = {}
@@ -81,7 +80,7 @@ def update(request, pk):
             return redirect('timelog:index')
     return render(request, 'timelog/update.html', {'form': form, 'context': context} )
 
-
+# This is to restrict the month and year based on the REPORTING_DATE
 def month_year(reporting_date):
     year = reporting_date[:4]
     month = reporting_date[5:7]

@@ -394,3 +394,33 @@
 [27/Sep/2020 21:08:10] ERROR [errors:42] Total hours exceeded the limit
 [27/Sep/2020 21:19:36] ERROR [errors:42] Total hours exceeded the limit
 [30/Sep/2020 21:55:20] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:01:59] ERROR [errors:63] 
+[30/Sep/2020 23:02:08] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:02:08] ERROR [errors:40] Total hours for week3 exceeded it's limit
+[30/Sep/2020 23:02:08] ERROR [errors:63] <ul class="errorlist"><li>week1<ul class="errorlist"><li>Total hours for week1 exceeded it&#39;s limit</li></ul></li><li>week3<ul class="errorlist"><li>Total hours for week3 exceeded it&#39;s limit</li></ul></li></ul>
+[30/Sep/2020 23:03:02] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:03:02] ERROR [errors:40] Total hours for week3 exceeded it's limit
+[30/Sep/2020 23:03:02] ERROR [errors:63] <ul class="errorlist"><li>week1<ul class="errorlist"><li>Total hours for week1 exceeded it&#39;s limit</li></ul></li><li>week3<ul class="errorlist"><li>Total hours for week3 exceeded it&#39;s limit</li></ul></li></ul>
+[30/Sep/2020 23:04:17] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:04:17] ERROR [errors:47] Total hours for week4 exceeded it's limit
+[30/Sep/2020 23:06:38] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:07:56] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:08:35] ERROR [errors:33] Total hours for week2 exceeded it's limit
+[30/Sep/2020 23:09:28] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:10:20] ERROR [errors:40] Total hours for week3 exceeded it's limit
+[30/Sep/2020 23:13:16] ERROR [errors:33] Total hours for week2 exceeded it's limit
+[30/Sep/2020 23:13:35] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:21:20] ERROR [errors:40] Total hours for week3 exceeded it's limit
+[30/Sep/2020 23:31:43] ERROR [errors:44] User doesn't exist
+[30/Sep/2020 23:32:29] ERROR [errors:44] User doesn't exist
+[30/Sep/2020 23:32:38] ERROR [errors:44] User doesn't exist
+[30/Sep/2020 23:33:20] ERROR [errors:44] User doesn't exist
+[30/Sep/2020 23:42:01] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:42:31] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:42:41] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:43:24] ERROR [errors:47] Total hours for week4 exceeded it's limit
+[30/Sep/2020 23:43:34] ERROR [errors:47] Total hours for week4 exceeded it's limit
+[30/Sep/2020 23:44:05] ERROR [errors:47] Total hours for week4 exceeded it's limit
+[30/Sep/2020 23:44:10] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:44:49] ERROR [errors:26] Total hours for week1 exceeded it's limit
+[30/Sep/2020 23:46:07] ERROR [errors:26] Total hours for week1 exceeded it's limit

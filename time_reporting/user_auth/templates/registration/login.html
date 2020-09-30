@@ -8,8 +8,11 @@
 <div class="LoginPage">
   <h1>Monthly Employee Timesheet</h1>
   <h3>Login</h3>
+  {% if error %}
+  <p style="color:red;">{{ error }}</p>
+  {% endif %}
   {% if form.errors %}
-  <p class="wrong-credential">Your username and password didn't match. Please try again.</p>
+  <p class="wrong-credential" style="color:red;">Your username and password didn't match. Please try again.</p>
   {% endif %}
   <div class="form-group">
     <form method="post" action="{% url 'loginto' %}">

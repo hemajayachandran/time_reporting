@@ -21,11 +21,12 @@ class Hours(models.Model):
         ('12', 'DEC')
     )
     YEARS = (
-        ('2015', "2015"),
-        ('2016', "2016"),
-        ('2018', "2018"),
-        ('2019', "2019"),
-        ('2020', "2020")
+        ('2015', '2015'),
+        ('2016', '2016'),
+        ('2017', '2017'),
+        ('2018', '2018'),
+        ('2019', '2019'),
+        ('2020', '2020')
         )
     STATUS = (
         ('Pending', 'Pending'),
@@ -49,4 +50,4 @@ class Hours(models.Model):
         verbose_name_plural = "Hours"
 
     def __str__(self):
-        return "%s" %(self.reference_pk)
+        return "%s_%s-%s" %(self.reference_pk, self.month, self.year)

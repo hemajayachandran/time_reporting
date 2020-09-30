@@ -2,13 +2,15 @@ from django.shortcuts import render, redirect
 from .forms import SignUpForm, LoginForm
 from .models import Employee
 from django.contrib.auth import authenticate
+import logging
 
-
-#from .models import Employee
+# Get an instance of a logger
+logger = logging.getLogger(__name__)
+logger_e = logging.getLogger('errors')
 
 # Create your views here.
 
-
+# Function will allow user to sign up
 def signup(request):
     form = SignUpForm()
     success = None
@@ -23,11 +25,12 @@ def signup(request):
         return redirect('loginto')
     return render(request, 'registration/signup.html', {'form': form, 'success': success})
 
+# This function allows user to login
 def login(request):
     form = LoginForm()
     if 'user_id' in request.session:
         return redirect('timelog:index')
-    #error = None
+    error = None
     if request.method == 'POST':
         form = LoginForm(request.POST)
         username = request.POST['login']
@@ -38,18 +41,16 @@ def login(request):
             print(request.session)
             print(request.session['user_id'])
             return redirect('timelog:index')
-    return render(request, 'registration/login.html', {'form': form})
+        else:
+            logger_e.error("User doesn't exist")
+            error = "User doesn't exist"
+    return render(request, 'registration/login.html', {'form': form, 'error': error})
+
 
 def get_user(request):
     return Employee.objects.get(reference=request.session['user_id'])
 
-def home(request):
-    if 'user_id' in request.session:
-        user = get_user(request)
-        return render(request, 'home.html', {'user': user})
-    else:
-        return redirect('loginto')
-
+# This allows user to logout from the session
 def logout(request):
     if 'user_id' in request.session:
         del request.session['user_id']
