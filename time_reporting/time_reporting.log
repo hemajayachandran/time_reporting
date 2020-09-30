@@ -3027,3 +3027,22 @@ Total Hours: 80
 [30/Sep/2020 23:48:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2308
 [30/Sep/2020 23:48:27] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
 [30/Sep/2020 23:48:27] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 948
+[30/Sep/2020 23:57:30] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 948
+[30/Sep/2020 23:57:30] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 304 0
+[30/Sep/2020 23:57:33] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 23:57:33] INFO [timelog.views:23] Employee name:Neenu
+[30/Sep/2020 23:57:33] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2308
+[30/Sep/2020 23:57:34] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 577
+[30/Sep/2020 23:57:35] INFO [timelog.views:41] Employee name:Neenu
+[30/Sep/2020 23:57:35] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=YzaZ6uguNOfMFpNiSlzDPKRKtlh0TxKonPipZEGQASyMWHx7OgdXBjPLCE0WhI1w&month=01&year=2015 HTTP/1.1" 200 1477
+[30/Sep/2020 23:57:35] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 531
+[30/Sep/2020 23:57:37] INFO [timelog.views:23] Employee name:Neenu
+[30/Sep/2020 23:57:37] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2308
+[30/Sep/2020 23:57:38] INFO [timelog.views:66] Employee name:Neenu
+[30/Sep/2020 23:57:38] INFO [django.server:154] "GET /timelog/update/5 HTTP/1.1" 200 2136
+[30/Sep/2020 23:57:39] INFO [timelog.views:23] Employee name:Neenu
+[30/Sep/2020 23:57:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2308
+[30/Sep/2020 23:57:48] INFO [timelog.views:41] Employee name:Neenu
+[30/Sep/2020 23:57:48] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=KDRqEILpcZqwkHA9XNn1GEX3qoibq1LE9TZQxSbLZ3JwBZkYTI1lsdV4zH17Oc2M&month=04&year=2015 HTTP/1.1" 200 2102
+[30/Sep/2020 23:57:49] INFO [timelog.views:23] Employee name:Neenu
+[30/Sep/2020 23:57:49] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2308
