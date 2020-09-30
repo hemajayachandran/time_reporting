@@ -3,6 +3,7 @@ from .forms import SignUpForm, LoginForm
 from .models import Employee
 from django.contrib.auth import authenticate
 
+
 #from .models import Employee
 
 # Create your views here.
@@ -24,7 +25,9 @@ def signup(request):
 
 def login(request):
     form = LoginForm()
-    error = None
+    if 'user_id' in request.session:
+        return redirect('timelog:index')
+    #error = None
     if request.method == 'POST':
         form = LoginForm(request.POST)
         username = request.POST['login']
@@ -32,6 +35,8 @@ def login(request):
         if Employee.objects.filter(login=username, password=password).exists():
             user = Employee.objects.get(login=username, password=password)
             request.session['user_id'] = user.reference
+            print(request.session)
+            print(request.session['user_id'])
             return redirect('timelog:index')
     return render(request, 'registration/login.html', {'form': form})
 

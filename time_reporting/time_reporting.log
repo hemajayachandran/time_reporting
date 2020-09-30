@@ -12,3 +12,1916 @@
 [28/Sep/2020 23:01:15] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
 [28/Sep/2020 23:01:15] INFO [timelog.views:25] Employee name:Neenu
 [28/Sep/2020 23:01:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:07:26] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:07:26] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1574
+[28/Sep/2020 23:07:26] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:07:26] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:07:43] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:07:43] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1540
+[28/Sep/2020 23:07:59] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:07:59] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1509
+[28/Sep/2020 23:08:05] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:08:05] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1510
+[28/Sep/2020 23:08:18] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:08:18] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1541
+[28/Sep/2020 23:08:27] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:08:27] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1545
+[28/Sep/2020 23:08:36] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:08:36] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1547
+[28/Sep/2020 23:08:40] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:08:40] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1549
+[28/Sep/2020 23:08:44] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:08:44] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9It1R7CYiP9Rs0ihoAWI5SobnDYsixLyF97JajZNotrs0VO4yerx8r81KpDfvkfE&month=01&year=2015 HTTP/1.1" 200 1545
+[28/Sep/2020 23:13:23] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:13:23] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:13:23] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 23:13:27] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:13:27] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 51, in create
+    return render(request, 'timelog/sheet.html', {'form': form, 'context': context, 'data': data})
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' + 4' from '1 + 4'
+[28/Sep/2020 23:13:27] ERROR [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=2d6AgOK1RSmmi713ufZ9fXXEB5ANdpEDyEKiz07QXwEXQ2xQETuYiwHuYRfAqc8J&month=01&year=2020 HTTP/1.1" 500 187263
+[28/Sep/2020 23:13:27] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:13:27] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:13:50] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:13:50] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=2d6AgOK1RSmmi713ufZ9fXXEB5ANdpEDyEKiz07QXwEXQ2xQETuYiwHuYRfAqc8J&month=01&year=2020 HTTP/1.1" 200 1786
+[28/Sep/2020 23:15:56] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:15:56] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:15:56] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 23:16:09] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:16:09] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=kWkRq7JXpkJdyk7pKi12Q9AdXLGImJqWQnYzJj6MvY1O6fDcUWwRTIk3kxlvzwU2&month=01&year=2015 HTTP/1.1" 200 1545
+[28/Sep/2020 23:16:09] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:16:09] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:16:12] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:16:12] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[28/Sep/2020 23:16:14] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:16:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:16:22] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:16:22] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=W6ict1SpCzslk2uJPfvdIxHCinEajb7RsxWUMdfeIdKWSX0wZT02L6rsF9jXwYBX&month=03&year=2015 HTTP/1.1" 200 1546
+[28/Sep/2020 23:16:22] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:16:22] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:16:25] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:16:25] INFO [django.server:154] "GET /timelog/update/30 HTTP/1.1" 200 2763
+[28/Sep/2020 23:16:25] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:16:25] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:17:41] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:17:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:17:44] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:17:44] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=NRW4Y6eOQU0fo7ngNJQfeV5TPyzOYvRPjiAMhiBDWyiQW2T3Xnl4huPJckeBbilV&month=03&year=2015 HTTP/1.1" 200 1546
+[28/Sep/2020 23:17:44] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:17:44] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:17:46] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:17:46] INFO [django.server:154] "GET /timelog/update/30 HTTP/1.1" 200 1910
+[28/Sep/2020 23:19:29] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:19:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:19:29] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 23:19:30] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:19:30] INFO [django.server:154] "GET /timelog/update/31 HTTP/1.1" 200 1909
+[28/Sep/2020 23:19:30] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:19:30] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:20:50] INFO [timelog.views:63] Employee name:Neenu
+[28/Sep/2020 23:20:50] INFO [django.server:154] "GET /timelog/update/31 HTTP/1.1" 200 1919
+[28/Sep/2020 23:20:52] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:20:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:20:54] INFO [timelog.views:63] Employee name:Neenu
+[28/Sep/2020 23:20:54] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1919
+[28/Sep/2020 23:21:46] INFO [timelog.views:63] Employee name:Neenu
+[28/Sep/2020 23:21:46] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1919
+[28/Sep/2020 23:21:47] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:21:47] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:21:47] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 23:21:50] INFO [timelog.views:63] Employee name:Neenu
+[28/Sep/2020 23:21:50] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1919
+[28/Sep/2020 23:23:13] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 54, in update
+    form = TimesheetForm(request.POST or None, instance=hour)
+UnboundLocalError: local variable 'hour' referenced before assignment
+[28/Sep/2020 23:23:13] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 64592
+[28/Sep/2020 23:23:36] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:23:36] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 1744
+[28/Sep/2020 23:23:42] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:23:42] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 1744
+[28/Sep/2020 23:23:57] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:23:57] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 1744
+[28/Sep/2020 23:24:14] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:24:14] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 1744
+[28/Sep/2020 23:24:17] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:24:17] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=ffLDjBYV8ygz36HiLjuYhFmJ4GI5FckVLGplCNlKecyaB1d5VXZNke6zrsnSSZO1&month=01&year=2015 HTTP/1.1" 200 1545
+[28/Sep/2020 23:24:17] WARNING [django.request:222] Not Found: /favicon.ico
+[28/Sep/2020 23:24:17] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[28/Sep/2020 23:24:19] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:24:19] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 1744
+[28/Sep/2020 23:24:51] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:24:51] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 1744
+[28/Sep/2020 23:25:19] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:25:19] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 3367
+[28/Sep/2020 23:25:39] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:25:39] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 3367
+[28/Sep/2020 23:26:07] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:26:07] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 3367
+[28/Sep/2020 23:26:31] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:26:31] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 3367
+[28/Sep/2020 23:26:43] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:26:43] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 3367
+[28/Sep/2020 23:26:49] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:26:49] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3432
+[28/Sep/2020 23:26:49] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 390
+[28/Sep/2020 23:26:52] ERROR [django.request:222] Internal Server Error: /timelog/update/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 55, in update
+    hour = get_object_or_404(Hours, pk=request.GET.get(pk))
+NameError: name 'pk' is not defined
+[28/Sep/2020 23:26:52] ERROR [django.server:154] "GET /timelog/update/ HTTP/1.1" 500 65019
+[28/Sep/2020 23:27:38] WARNING [django.request:222] Not Found: /timelog/update/
+[28/Sep/2020 23:27:38] WARNING [django.server:154] "GET /timelog/update/ HTTP/1.1" 404 1740
+[28/Sep/2020 23:28:11] WARNING [django.request:222] Not Found: /timelog/update/
+[28/Sep/2020 23:28:11] WARNING [django.server:154] "GET /timelog/update/ HTTP/1.1" 404 1740
+[28/Sep/2020 23:28:15] WARNING [django.request:222] Not Found: /timelog/update/
+[28/Sep/2020 23:28:15] WARNING [django.server:154] "GET /timelog/update/ HTTP/1.1" 404 1740
+[28/Sep/2020 23:28:48] WARNING [django.request:222] Not Found: /timelog/update/28
+[28/Sep/2020 23:28:48] WARNING [django.server:154] "GET /timelog/update/28 HTTP/1.1" 404 3367
+[28/Sep/2020 23:29:13] ERROR [django.request:222] Internal Server Error: /timelog/update/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: update() missing 1 required positional argument: 'pk'
+[28/Sep/2020 23:29:13] ERROR [django.server:154] "GET /timelog/update/ HTTP/1.1" 500 61217
+[28/Sep/2020 23:29:46] ERROR [django.request:222] Internal Server Error: /timelog/update/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: update() missing 1 required positional argument: 'pk'
+[28/Sep/2020 23:29:46] ERROR [django.server:154] "GET /timelog/update/ HTTP/1.1" 500 61217
+[28/Sep/2020 23:30:03] WARNING [django.request:222] Not Found: /timelog/update/
+[28/Sep/2020 23:30:03] WARNING [django.server:154] "GET /timelog/update/ HTTP/1.1" 404 3375
+[28/Sep/2020 23:30:04] WARNING [django.request:222] Not Found: /timelog/update/
+[28/Sep/2020 23:30:04] WARNING [django.server:154] "GET /timelog/update/ HTTP/1.1" 404 3375
+[28/Sep/2020 23:30:10] INFO [timelog.views:38] Employee name:Neenu
+[28/Sep/2020 23:30:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9QJzcbRYGkgQvT6Kjx4fN2yWCIxQrGhay6RZ5lhktozQMbQzfsIzzBwXL1gMPRyi&month=01&year=2015 HTTP/1.1" 200 1545
+[28/Sep/2020 23:30:10] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[28/Sep/2020 23:30:12] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:30:12] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1903
+[28/Sep/2020 23:30:14] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:30:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[28/Sep/2020 23:30:14] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[28/Sep/2020 23:30:15] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:30:15] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1903
+[28/Sep/2020 23:30:44] INFO [timelog.views:62] Employee name:Neenu
+[28/Sep/2020 23:30:44] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[28/Sep/2020 23:30:46] INFO [timelog.views:25] Employee name:Neenu
+[28/Sep/2020 23:30:46] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[29/Sep/2020 12:22:30] INFO [timelog.views:62] Employee name:Neenu
+[29/Sep/2020 12:22:30] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 12:22:30] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[29/Sep/2020 14:33:20] INFO [timelog.views:25] Employee name:Neenu
+[29/Sep/2020 14:33:20] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[29/Sep/2020 14:33:20] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 14:33:44] INFO [timelog.views:25] Employee name:Neenu
+[29/Sep/2020 14:33:44] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'paginator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'paginator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'paginator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 26, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 692, in resolve
+    arg_vals.append(arg.resolve(context))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [paginator] in [{'True': True, 'False': False, 'None': None}, {}, {}, {'form': <TimesheetForm bound=False, valid=Unknown, fields=(month;year;total_hours;week1;week2;week3;week4)>, 'data': <QuerySet [<Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>, <Hours: Neenu>]>, 'context': {'reporting_year': '2020', 'reporting_month': '06', 'user': <Employee: Neenu>}}]
+[29/Sep/2020 14:33:44] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 193718
+[29/Sep/2020 14:34:00] INFO [timelog.views:25] Employee name:Neenu
+[29/Sep/2020 14:34:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3458
+[29/Sep/2020 14:39:59] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:39:59] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3444
+[29/Sep/2020 14:40:40] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:40:40] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3671
+[29/Sep/2020 14:40:45] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:40:45] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3671
+[29/Sep/2020 14:41:07] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:41:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3671
+[29/Sep/2020 14:42:03] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:42:03] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3491
+[29/Sep/2020 14:42:06] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:42:06] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:42:06] WARNING [django.request:222] Not Found: /favicon.ico
+[29/Sep/2020 14:42:06] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[29/Sep/2020 14:42:07] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:42:07] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3491
+[29/Sep/2020 14:42:07] WARNING [django.request:222] Not Found: /favicon.ico
+[29/Sep/2020 14:42:07] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[29/Sep/2020 14:42:13] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:42:13] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:42:15] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:42:15] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3491
+[29/Sep/2020 14:42:24] INFO [timelog.views:32] Employee name:Neenu
+[29/Sep/2020 14:42:24] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:43:41] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:43:41] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:43:42] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:43:42] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:43:42] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:43:42] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:43:43] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:43:43] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3491
+[29/Sep/2020 14:43:46] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:43:46] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3496
+[29/Sep/2020 14:47:04] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:47:04] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3640
+[29/Sep/2020 14:47:06] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:47:06] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3640
+[29/Sep/2020 14:47:06] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:47:06] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3640
+[29/Sep/2020 14:47:39] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:47:39] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3639
+[29/Sep/2020 14:48:41] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:48:41] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3638
+[29/Sep/2020 14:48:42] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:48:42] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3638
+[29/Sep/2020 14:48:42] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:48:42] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3638
+[29/Sep/2020 14:48:42] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:48:42] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3638
+[29/Sep/2020 14:48:47] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:48:47] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3638
+[29/Sep/2020 14:48:47] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 14:53:43] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:53:43] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 4031
+[29/Sep/2020 14:53:44] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:53:44] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 4031
+[29/Sep/2020 14:53:44] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:53:44] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 4031
+[29/Sep/2020 14:53:44] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 14:53:44] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 4031
+[29/Sep/2020 15:04:37] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:04:37] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3654
+[29/Sep/2020 15:04:46] INFO [timelog.views:70] Employee name:Neenu
+[29/Sep/2020 15:04:46] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 15:04:46] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[29/Sep/2020 15:04:48] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:04:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3654
+[29/Sep/2020 15:05:08] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:05:08] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3654
+[29/Sep/2020 15:05:09] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:05:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3654
+[29/Sep/2020 15:05:17] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:05:17] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3654
+[29/Sep/2020 15:05:34] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:05:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3654
+[29/Sep/2020 15:05:54] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:05:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3654
+[29/Sep/2020 15:06:14] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:06:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3635
+[29/Sep/2020 15:06:15] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:06:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3635
+[29/Sep/2020 15:06:15] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:06:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3635
+[29/Sep/2020 15:06:15] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:06:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3635
+[29/Sep/2020 15:06:29] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:06:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3616
+[29/Sep/2020 15:09:50] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:09:50] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3653
+[29/Sep/2020 15:09:51] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:09:51] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3653
+[29/Sep/2020 15:09:51] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:09:51] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3653
+[29/Sep/2020 15:09:57] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:09:57] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3653
+[29/Sep/2020 15:10:11] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:10:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 5964
+[29/Sep/2020 15:11:03] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:11:03] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 5987
+[29/Sep/2020 15:11:09] INFO [timelog.views:70] Employee name:Neenu
+[29/Sep/2020 15:11:09] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 15:11:09] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[29/Sep/2020 15:11:10] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 15:11:10] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 5987
+[29/Sep/2020 20:21:55] INFO [timelog.views:33] Employee name:Neenu
+[29/Sep/2020 20:21:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:21:55] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 251
+[29/Sep/2020 20:22:23] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:22:23] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:23:50] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 21, in index
+    data = Profile.objects.all().order_by('id')
+NameError: name 'Profile' is not defined
+[29/Sep/2020 20:23:50] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 63977
+[29/Sep/2020 20:24:00] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:24:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:26:49] INFO [timelog.views:71] Employee name:Neenu
+[29/Sep/2020 20:26:49] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 20:26:49] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[29/Sep/2020 20:26:54] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:26:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:26:55] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:26:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:27:03] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:27:03] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:27:03] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 251
+[29/Sep/2020 20:27:06] INFO [timelog.views:71] Employee name:Neenu
+[29/Sep/2020 20:27:06] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 20:27:06] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[29/Sep/2020 20:27:07] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:27:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:28:14] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:28:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4174
+[29/Sep/2020 20:28:53] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:28:53] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:28:54] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:28:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:28:54] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:28:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:28:54] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:28:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:30:36] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:30:36] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3710
+[29/Sep/2020 20:30:39] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:30:39] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3714
+[29/Sep/2020 20:30:40] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:30:40] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3710
+[29/Sep/2020 20:30:52] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:30:52] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3714
+[29/Sep/2020 20:30:53] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:30:53] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3710
+[29/Sep/2020 20:31:21] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:31:21] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3714
+[29/Sep/2020 20:31:49] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:31:49] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3710
+[29/Sep/2020 20:31:56] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:31:56] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3710
+[29/Sep/2020 20:31:58] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:31:58] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3756
+[29/Sep/2020 20:31:59] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:31:59] INFO [django.server:154] "GET /timelog/?page=3 HTTP/1.1" 200 3714
+[29/Sep/2020 20:32:00] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:32:00] INFO [django.server:154] "GET /timelog/?page=2 HTTP/1.1" 200 3756
+[29/Sep/2020 20:32:01] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:32:01] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3710
+[29/Sep/2020 20:35:57] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:35:57] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3710
+[29/Sep/2020 20:35:57] INFO [timelog.views:47] Employee name:Neenu
+[29/Sep/2020 20:35:57] INFO [django.server:154] "GET /timelog/submit/ HTTP/1.1" 200 1868
+[29/Sep/2020 20:35:58] WARNING [django.request:222] Not Found: /
+[29/Sep/2020 20:35:58] WARNING [django.server:154] "GET / HTTP/1.1" 404 2883
+[29/Sep/2020 20:35:59] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:35:59] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 304 0
+[29/Sep/2020 20:36:00] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:36:00] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 304 0
+[29/Sep/2020 20:37:15] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 20:37:15] INFO [timelog.views:34] Employee name:Neenu
+[29/Sep/2020 20:37:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3710
+[29/Sep/2020 20:42:02] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 20:42:02] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:42:04] INFO [django.server:154] "GET /signup/ HTTP/1.1" 200 1052
+[29/Sep/2020 20:42:05] INFO [django.server:154] "GET /static/registration/css/signup.css HTTP/1.1" 200 80
+[29/Sep/2020 20:42:05] WARNING [django.request:222] Not Found: /favicon.ico
+[29/Sep/2020 20:42:05] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[29/Sep/2020 20:42:40] WARNING [django.request:222] Not Found: /
+[29/Sep/2020 20:42:40] WARNING [django.server:154] "GET / HTTP/1.1" 404 2883
+[29/Sep/2020 20:42:51] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:43:24] INFO [django.server:154] "POST /signup/ HTTP/1.1" 302 0
+[29/Sep/2020 20:43:24] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:45:34] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 20:45:34] INFO [timelog.views:34] Employee name:Geethu
+[29/Sep/2020 20:45:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3711
+[29/Sep/2020 20:47:50] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 21, in index
+    data = Hours.objects.get(reference=request.session['user_id'])
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1284, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1388, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'reference' into field. Choices are: id, month, reference_pk, reference_pk_id, status, submitting_date, total_hours, week1, week2, week3, week4, year
+[29/Sep/2020 20:47:50] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 108037
+[29/Sep/2020 20:48:06] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 21, in index
+    data = Hours.objects.get(reference_pk=request.session['user_id'])
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 397, in get
+    raise self.model.DoesNotExist(
+timelog.models.Hours.DoesNotExist: Hours matching query does not exist.
+[29/Sep/2020 20:48:06] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 72938
+[29/Sep/2020 20:49:09] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 21, in index
+    data = Hours.objects.get(reference_pk=request.session['user_id'])
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 397, in get
+    raise self.model.DoesNotExist(
+timelog.models.Hours.DoesNotExist: Hours matching query does not exist.
+[29/Sep/2020 20:49:09] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 72953
+[29/Sep/2020 20:51:08] WARNING [django.request:222] Not Found: /timelog/
+[29/Sep/2020 20:51:08] WARNING [django.server:154] "GET /timelog/ HTTP/1.1" 404 1725
+[29/Sep/2020 20:52:33] WARNING [django.request:222] Not Found: /timelog/
+[29/Sep/2020 20:52:33] WARNING [django.server:154] "GET /timelog/ HTTP/1.1" 404 1725
+[29/Sep/2020 20:52:34] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:52:38] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:52:39] WARNING [django.request:222] Not Found: /
+[29/Sep/2020 20:52:39] WARNING [django.server:154] "GET / HTTP/1.1" 404 2883
+[29/Sep/2020 20:52:40] INFO [timelog.views:48] Employee name:Geethu
+[29/Sep/2020 20:52:40] INFO [django.server:154] "GET /timelog/submit/ HTTP/1.1" 200 1869
+[29/Sep/2020 20:52:41] WARNING [django.request:222] Not Found: /timelog/
+[29/Sep/2020 20:52:41] WARNING [django.server:154] "GET /timelog/ HTTP/1.1" 404 1725
+[29/Sep/2020 20:52:42] WARNING [django.request:222] Not Found: /timelog/
+[29/Sep/2020 20:52:42] WARNING [django.server:154] "GET /timelog/ HTTP/1.1" 404 1725
+[29/Sep/2020 20:55:53] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:55:53] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 40, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context, 'page_obj': page_obj})
+NameError: name 'page_obj' is not defined
+[29/Sep/2020 20:55:53] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65447
+[29/Sep/2020 20:56:09] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:56:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:56:09] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 20:56:16] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:56:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:56:16] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 20:56:16] INFO [django.server:154] "GET /timelog/submit/ HTTP/1.1" 200 1869
+[29/Sep/2020 20:56:17] WARNING [django.request:222] Not Found: /
+[29/Sep/2020 20:56:17] WARNING [django.server:154] "GET / HTTP/1.1" 404 2883
+[29/Sep/2020 20:56:19] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:56:20] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:56:31] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 20:56:31] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 20:56:31] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 37, in index
+    data = Hours.objects.get(reference_pk=Employee.objects.get(reference=request.session['user_id']))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 401, in get
+    raise self.model.MultipleObjectsReturned(
+timelog.models.Hours.MultipleObjectsReturned: get() returned more than one Hours -- it returned 14!
+[29/Sep/2020 20:56:31] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 74370
+[29/Sep/2020 20:57:34] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 20:57:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:57:41] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 20:57:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 20:57:55] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 20:57:55] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 200 78
+[29/Sep/2020 20:58:02] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 20:58:02] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3620
+[29/Sep/2020 20:58:22] INFO [django.server:154] "POST /login/ HTTP/1.1" 200 1081
+[29/Sep/2020 20:58:26] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 20:58:26] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:58:26] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:58:26] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 251
+[29/Sep/2020 20:58:32] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 20:58:32] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Svl4ausGvpIvXbcpqEXBb1b8XLafRZYVnAMho59X0hfWivEjMJIX5SuD6Yg3FHXV&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 20:58:33] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 154
+[29/Sep/2020 20:59:08] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:59:08] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:59:09] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 20:59:09] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=ginELBaEE7T7GUjlcoiMvWkyxwsxzizsLnORZcRV9Zqy1eLfyt38pND3GJyln0ys&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 20:59:41] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:59:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:59:42] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 20:59:42] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=OPCwk93sSXzAqm6BcXUwcp5B75Soyg0rjU3JyKKJnP61LGyvy2FS6go6giYcmYZr&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 20:59:44] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 20:59:44] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=OPCwk93sSXzAqm6BcXUwcp5B75Soyg0rjU3JyKKJnP61LGyvy2FS6go6giYcmYZr&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 20:59:46] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:59:46] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:59:47] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 20:59:47] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 20:59:48] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 20:59:48] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=9dRo9daTKivBgOYVOxQkhKShjgKwtyS4EiiBnORafa22B8qPaCBGbBbMstQkhgR4&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 21:01:15] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:01:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:01:16] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:01:16] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=0SfRM0m7O4wl0GZWfPPbRTFt510n58GFvXG40B3ojW3Ml0rQBUAxLKYYee6bTQFF&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 21:01:44] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:01:44] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:01:45] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:01:45] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4SGU20UAQ1BnvhEuW5hWLeiKdLBFBIVIzX77gBBRlT8OQB6oia2iF5BfmYHtpqUI&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 21:03:14] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:03:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:03:15] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:03:15] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=VvwPusASoEXYD0QdYDLudGX9ytdKPk8xqAX2I3h9TwupYki7kIwQ7xgEHGjyD27x&month=01&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:03:45] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:03:45] INFO [django.server:154] "GET /timelog/?page=1 HTTP/1.1" 200 3620
+[29/Sep/2020 21:03:45] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 21:03:47] INFO [timelog.views:51] Employee name:Neenu
+[29/Sep/2020 21:03:47] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=kxtFKUFdYYRjsSCEPhec66A31s1tMarYJNB5D45zL2ajJamtLcSwSFy4aLKpalI6&month=01&year=2015 HTTP/1.1" 200 1545
+[29/Sep/2020 21:03:48] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:03:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 21:03:50] INFO [timelog.views:70] Employee name:Neenu
+[29/Sep/2020 21:03:50] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 21:03:52] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:03:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 21:04:07] INFO [timelog.views:51] Employee name:Neenu
+[29/Sep/2020 21:04:07] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=UCQ7Ye5XFkJyrCsVGPfwBwVLhW4AEOedjSYxRovjso2yIUcKCKTQn5TMqfNw2Zvl&month=01&year=2015 HTTP/1.1" 200 1545
+[29/Sep/2020 21:04:09] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:04:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 21:04:25] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:04:25] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:04:27] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:04:27] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:05:03] INFO [timelog.views:51] Employee name:Neenu
+[29/Sep/2020 21:05:03] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=meHg4WIohMTtHrsJnDuW6MErGy7jFtDtLuPGX68K4QctYJcyjy8gSlCsPRQf3EUB&month=01&year=2015 HTTP/1.1" 200 1545
+[29/Sep/2020 21:05:05] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:05:05] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3620
+[29/Sep/2020 21:05:58] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:05:58] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=sNBULnYCjIgFlFnNeLxeVbW2BamLl1YbXS27ZYFTOAN6GZPHAQiAP2fxKnsz9JXb&month=01&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:06:04] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:06:04] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:06:22] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:06:22] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:07:14] INFO [timelog.views:51] Employee name:Neenu
+[29/Sep/2020 21:07:14] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=knDw0eJ7pxymri1nFAwImtaevUc6jN7LJDLWTo9tcBRmIALcBva2828fEdV2HYoT&month=05&year=2019 HTTP/1.1" 200 1864
+[29/Sep/2020 21:07:19] INFO [timelog.views:51] Employee name:Neenu
+[29/Sep/2020 21:07:19] INFO [timelog.views:60] Month: 05 Year: 2019
+Week1: 10 Week2: 10 Week3: 10 Week4: 10
+Total Hours: 40
+[29/Sep/2020 21:07:19] INFO [timelog.views:64] Timesheet submitted successfully
+[29/Sep/2020 21:07:19] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 302 0
+[29/Sep/2020 21:07:19] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:07:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:07:56] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:07:56] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:07:57] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:07:57] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=0LHWKSvLLFP4bv3GjjYkrSFNYrnYxvHGvQ89Ytc2gxmvwPvAFoJGlJYi7EtMldGG&month=01&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:08:02] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:08:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:08:06] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:08:06] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=aLIVrzqt36yDy8x6wxlOyk0Q8C28YZZ9FQ98Fa7KyY54TsZ0SC6asbjlhP8WMHY9&month=02&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:08:14] INFO [timelog.views:51] Employee name:Geethu
+[29/Sep/2020 21:08:14] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:11:34] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:11:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:11:37] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:11:37] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=iJMTTL9uLggruB1ygRbmL0AvSGyYfVvkNOd67mQLg8NSPVtsCWWIFRT01TEM3Duk&month=02&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:13:41] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:13:41] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:14:00] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:14:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /admin/ HTTP/1.1" 302 0
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[29/Sep/2020 21:14:07] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[29/Sep/2020 21:14:13] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Sep/2020 21:14:13] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 6905
+[29/Sep/2020 21:14:13] INFO [django.server:154] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[29/Sep/2020 21:14:13] INFO [django.server:154] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[29/Sep/2020 21:14:13] INFO [django.server:154] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[29/Sep/2020 21:14:13] INFO [django.server:154] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[29/Sep/2020 21:14:13] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /admin/user_auth/employee/ HTTP/1.1" 200 4590
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[29/Sep/2020 21:14:18] INFO [django.server:154] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[29/Sep/2020 21:14:20] INFO [django.server:154] "GET /admin/user_auth/employee/1/change/ HTTP/1.1" 200 5427
+[29/Sep/2020 21:14:20] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 21:14:20] INFO [django.server:154] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[29/Sep/2020 21:14:20] INFO [django.server:154] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[29/Sep/2020 21:14:20] INFO [django.server:154] "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[29/Sep/2020 21:14:20] INFO [django.server:154] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[29/Sep/2020 21:14:22] INFO [django.server:154] "GET /admin/user_auth/employee/ HTTP/1.1" 200 4590
+[29/Sep/2020 21:14:22] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 21:14:24] INFO [django.server:154] "GET /admin/user_auth/ HTTP/1.1" 200 2482
+[29/Sep/2020 21:14:25] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 6905
+[29/Sep/2020 21:14:26] INFO [django.server:154] "GET /admin/timelog/hours/ HTTP/1.1" 200 7408
+[29/Sep/2020 21:14:26] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 21:16:08] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:16:08] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=eWI5x8d7J85RsRn5oOuSC9wdrVRYdzPqJ19iLJUoe0CiNbPZKTfew0PIA8XM1hOq&month=01&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:16:21] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:16:21] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:16:51] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:16:51] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:16:53] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:16:53] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=eZGnB6S2Hbggb2PCSZLWw9ky0TaATcNhIk71F72FBLdUL7oFTNVrPKXEeK66J72C&month=03&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:17:01] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:17:01] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1925
+[29/Sep/2020 21:18:09] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:18:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:18:12] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:18:12] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=ui289GtYkdtMyMeDGfsh1OlNfHUA6nheYDtMdHDBeNqq8RNGH3CMkpYTtyQ6Wiwz&month=05&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:18:17] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:18:17] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:20:55] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:20:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:21:01] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:21:01] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=yigxMox7qvTX196Af0opZwOgQRniGCUx2DHbQpHKk5QBBeFDgOyUi7rm4IjOwx9S&month=04&year=2020 HTTP/1.1" 200 1865
+[29/Sep/2020 21:21:09] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:21:09] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 1924
+[29/Sep/2020 21:21:11] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:21:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 1918
+[29/Sep/2020 21:21:30] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:21:30] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=B13HMb3iy7yYGZ8nSAnMNrEsKdNPFaWz5mulQcdVsHvCg4HqToxh62hyY4Jlv5bU&month=03&year=2020 HTTP/1.1" 200 1865
+[29/Sep/2020 21:21:35] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:21:35] INFO [timelog.views:64] Month: 03 Year: 2020
+Week1: 10 Week2: 10 Week3: 10 Week4: 10
+Total Hours: 40
+[29/Sep/2020 21:21:35] INFO [timelog.views:68] Timesheet submitted successfully
+[29/Sep/2020 21:21:35] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 302 0
+[29/Sep/2020 21:21:35] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:21:35] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2042
+[29/Sep/2020 21:22:09] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:22:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=qB6YESDUqe0pqEKpP975L9Iz0gsBJq3rUWxCITNxkOX30JjsQXhA4KlFe7o7zliM&month=01&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:22:19] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:22:19] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 61, in create
+    time.save()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 717, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+[29/Sep/2020 21:22:19] ERROR [django.server:154] "POST /timelog/submit/ HTTP/1.1" 500 150237
+[29/Sep/2020 21:23:52] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:23:52] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 61, in create
+    time.save()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 717, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+[29/Sep/2020 21:23:52] ERROR [django.server:154] "POST /timelog/submit/ HTTP/1.1" 500 150240
+[29/Sep/2020 21:23:56] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:23:56] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 61, in create
+    time.save()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 717, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+[29/Sep/2020 21:23:56] ERROR [django.server:154] "POST /timelog/submit/ HTTP/1.1" 500 150237
+[29/Sep/2020 21:25:16] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:25:16] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 61, in create
+    time.save()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 717, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+[29/Sep/2020 21:25:16] ERROR [django.server:154] "POST /timelog/submit/ HTTP/1.1" 500 150237
+[29/Sep/2020 21:27:48] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:27:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2042
+[29/Sep/2020 21:27:55] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:27:55] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=vUQnQc5uPZ6pgSBnTARQyY5L5iv3DmFOZfh1Udf7Jz33QXaqUo1lRzIRj9rzthU9&month=03&year=2019 HTTP/1.1" 200 1865
+[29/Sep/2020 21:28:02] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:28:02] INFO [timelog.views:64] Month: 03 Year: 2019
+Week1: 10 Week2: 10 Week3: 10 Week4: 20
+Total Hours: 50
+[29/Sep/2020 21:28:02] INFO [timelog.views:68] Timesheet submitted successfully
+[29/Sep/2020 21:28:02] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 302 0
+[29/Sep/2020 21:28:02] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:28:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2166
+[29/Sep/2020 21:28:05] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:28:05] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=55l2oN7JGv7zxRizCp9zcNB83NrwQkPczqMGsOhmA54d7WRCDdj4voeehEn2Gf4x&month=01&year=2015 HTTP/1.1" 200 1865
+[29/Sep/2020 21:28:15] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:28:15] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 61, in create
+    time.save()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 717, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/base.py", line 868, in _do_insert
+    return manager._insert([self], fields=fields, return_id=update_pk,
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1289, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: timelog_hours.month, timelog_hours.year
+[29/Sep/2020 21:28:15] ERROR [django.server:154] "POST /timelog/submit/ HTTP/1.1" 500 150261
+[29/Sep/2020 21:28:52] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:28:52] INFO [timelog.views:64] Month: 01 Year: 2015
+Week1: 10 Week2: 20 Week3: 10 Week4: 10
+Total Hours: 50
+[29/Sep/2020 21:28:52] INFO [timelog.views:68] Timesheet submitted successfully
+[29/Sep/2020 21:28:52] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 302 0
+[29/Sep/2020 21:28:52] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:28:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:28:54] INFO [timelog.views:75] Employee name:Geethu
+[29/Sep/2020 21:28:54] INFO [django.server:154] "GET /timelog/update/45 HTTP/1.1" 200 2763
+[29/Sep/2020 21:28:56] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:28:56] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:29:00] INFO [timelog.views:52] Employee name:Geethu
+[29/Sep/2020 21:29:00] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=QGOfqcFyhGUxCPIg8rGT3GPRwZxWSKYjk1fTudPbbgRbcUhj9fQomhsXKQtsIFdE&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 21:29:02] INFO [timelog.views:35] Employee name:Geethu
+[29/Sep/2020 21:29:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:29:11] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:29:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:29:12] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:29:12] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:29:12] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:29:12] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:29:12] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:29:12] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:29:15] INFO [timelog.views:75] Employee name:Neenu
+[29/Sep/2020 21:29:15] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 21:29:16] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:29:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:29:59] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:00] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 21:30:01] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:01] INFO [timelog.views:85] Month: 01 Year: 2015
+Week1: 30.00 Week2: 20.00 Week3: 20.00 Week4: 20.00
+Total Hours: 90.00
+[29/Sep/2020 21:30:01] INFO [timelog.views:89] Timesheet updated successfully
+[29/Sep/2020 21:30:01] INFO [django.server:154] "POST /timelog/update/28 HTTP/1.1" 302 0
+[29/Sep/2020 21:30:01] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:30:01] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:30:03] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:03] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 21:30:11] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:11] INFO [timelog.views:85] Month: 01 Year: 2015
+Week1: 30.00 Week2: 20.00 Week3: 20.00 Week4: 20.00
+Total Hours: 90.00
+[29/Sep/2020 21:30:11] INFO [timelog.views:89] Timesheet updated successfully
+[29/Sep/2020 21:30:11] INFO [django.server:154] "POST /timelog/update/28 HTTP/1.1" 302 0
+[29/Sep/2020 21:30:11] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:30:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:30:15] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:15] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 21:30:16] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:30:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:30:24] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:24] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2762
+[29/Sep/2020 21:30:26] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:30:26] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:30:43] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:30:43] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:30:45] INFO [timelog.views:74] Employee name:Neenu
+[29/Sep/2020 21:30:45] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2780
+[29/Sep/2020 21:31:26] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:31:35] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 21:31:35] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:31:35] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:31:38] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:31:38] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:31:45] INFO [timelog.views:35] Employee name:Neenu
+[29/Sep/2020 21:31:45] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:43:32] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 21:43:32] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:43:32] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 21:43:41] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 21:43:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:48:28] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 21:48:28] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:48:31] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 41, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+UnboundLocalError: local variable 'data' referenced before assignment
+[29/Sep/2020 21:48:31] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65785
+[29/Sep/2020 21:48:39] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 41, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+UnboundLocalError: local variable 'data' referenced before assignment
+[29/Sep/2020 21:48:39] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65650
+[29/Sep/2020 21:49:12] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 135, in _get_response
+    raise ValueError(
+ValueError: The view timelog.views.index didn't return an HttpResponse object. It returned None instead.
+[29/Sep/2020 21:49:12] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 55834
+[29/Sep/2020 21:49:40] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 41, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+UnboundLocalError: local variable 'data' referenced before assignment
+[29/Sep/2020 21:49:40] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65784
+[29/Sep/2020 21:49:55] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:50:15] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 21:50:15] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:50:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:50:18] INFO [timelog.views:53] Employee name:Geethu
+[29/Sep/2020 21:50:18] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=l8ImeyIDOZ1GmIZz55zFr7EJ0KijfkWTPt90izSgIzYkWNyC6TJaKIhPeBeP5fbe&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 21:50:19] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:50:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:50:20] INFO [timelog.views:53] Employee name:Geethu
+[29/Sep/2020 21:50:20] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=uJVpHtaMVI26324I1vu0BtvB8UL3s6OhY4m3LukpPiZKD7DL2jEvU48HmLHzi13C&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 21:50:21] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:50:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:50:58] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:51:03] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:51:03] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:54:43] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:54:43] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:54:44] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:54:44] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:54:44] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:54:44] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:54:47] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 21:54:47] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:54:49] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 41, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+UnboundLocalError: local variable 'data' referenced before assignment
+[29/Sep/2020 21:54:49] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65785
+[29/Sep/2020 21:54:57] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:55:02] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 21:55:02] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 21:55:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 21:55:15] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 21:55:16] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:55:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:55:18] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:55:18] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:55:20] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 21:55:20] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 21:55:37] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 21:55:37] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 21:55:41] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 41, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+UnboundLocalError: local variable 'data' referenced before assignment
+[29/Sep/2020 21:55:41] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65664
+[29/Sep/2020 21:59:06] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 21:59:06] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 21:59:06] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:00:18] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:00:18] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:00:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:00:24] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:00:24] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:00:24] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 22:00:28] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:00:28] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:00:28] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 22:00:52] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:00:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:00:54] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:00:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:00:55] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:00:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:00:55] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:00:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:00:55] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:00:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:13:01] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:13:01] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:13:01] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 22:13:04] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:13:04] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:13:04] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 304 0
+[29/Sep/2020 22:13:07] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:13:07] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:13:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:13:24] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:13:24] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:13:33] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:13:33] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:13:33] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:14:11] INFO [timelog.views:54] Employee name:Geethu
+[29/Sep/2020 22:14:11] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=pTJZB759JBY542qRURIDsAw2knic7WNWVknHUjsYPfgGCXWE4vdsv9gSH9XZkJh2&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 22:14:11] WARNING [django.request:222] Not Found: /favicon.ico
+[29/Sep/2020 22:14:11] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2934
+[29/Sep/2020 22:14:26] INFO [timelog.views:54] Employee name:Neenu
+[29/Sep/2020 22:14:26] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=53pp4mciJRLsaaJfFDkhuudxlTBA5rZCujxPXwCEwV4srst4ByYBg3byuckwtCgK&month=01&year=2015 HTTP/1.1" 200 1545
+[29/Sep/2020 22:15:00] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:15:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:15:01] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:15:01] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:15:04] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:15:04] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:15:04] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:15:17] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:15:31] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:15:31] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:15:31] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:15:48] INFO [timelog.views:54] Employee name:Geethu
+[29/Sep/2020 22:15:48] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=m794hnmmHZdzhqOdHYx1r7qoHWmnaZlZLnhuaxMIu3wzyIy2DTbldGopQf5jyaC7&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 22:16:26] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:16:34] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:16:34] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:16:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:16:38] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:16:38] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:16:38] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:16:41] INFO [timelog.views:55] Employee name:Geethu
+[29/Sep/2020 22:16:41] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=DD6hfffd3b0zHJQ3uSHehAMeeW0VWUi52TeH8pFzQfjzY1ASqNly39KfnfJRk5zd&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 22:16:47] INFO [timelog.views:55] Employee name:Geethu
+[29/Sep/2020 22:16:47] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=mC5ERWjL9epRRdF2t1RCH8tBvXNKwLerLSd4K6J7WiIR8vpRpWvWtHrCEgwGUWvz&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 22:27:31] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:27:31] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:27:31] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:30:52] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:30:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:32:46] ERROR [django.security.DisallowedHost:75] Invalid HTTP_HOST header: '192.168.0.42:8000'. You may need to add '192.168.0.42' to ALLOWED_HOSTS.
+[29/Sep/2020 22:32:46] WARNING [django.request:222] Bad Request: /login
+[29/Sep/2020 22:32:46] WARNING [django.server:154] "GET /login HTTP/1.1" 400 60909
+[29/Sep/2020 22:32:50] ERROR [django.security.DisallowedHost:75] Invalid HTTP_HOST header: '192.168.0.42:8000'. You may need to add '192.168.0.42' to ALLOWED_HOSTS.
+[29/Sep/2020 22:32:50] WARNING [django.request:222] Bad Request: /favicon.ico
+[29/Sep/2020 22:32:50] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 400 60901
+[29/Sep/2020 22:32:56] ERROR [django.security.DisallowedHost:75] Invalid HTTP_HOST header: '192.168.0.42:8000'. You may need to add '192.168.0.42' to ALLOWED_HOSTS.
+[29/Sep/2020 22:32:56] WARNING [django.request:222] Bad Request: /login
+[29/Sep/2020 22:32:56] WARNING [django.server:154] "GET /login HTTP/1.1" 400 61044
+[29/Sep/2020 22:32:56] ERROR [django.security.DisallowedHost:75] Invalid HTTP_HOST header: '192.168.0.42:8000'. You may need to add '192.168.0.42' to ALLOWED_HOSTS.
+[29/Sep/2020 22:32:56] WARNING [django.request:222] Bad Request: /favicon.ico
+[29/Sep/2020 22:32:56] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 400 60901
+[29/Sep/2020 22:35:03] ERROR [django.security.DisallowedHost:75] Invalid HTTP_HOST header: '192.168.0.42:8000'. You may need to add '192.168.0.42' to ALLOWED_HOSTS.
+[29/Sep/2020 22:35:03] WARNING [django.request:222] Bad Request: /login
+[29/Sep/2020 22:35:03] WARNING [django.server:154] "GET /login HTTP/1.1" 400 61033
+[29/Sep/2020 22:35:05] ERROR [django.security.DisallowedHost:75] Invalid HTTP_HOST header: '192.168.0.42:8000'. You may need to add '192.168.0.42' to ALLOWED_HOSTS.
+[29/Sep/2020 22:35:05] WARNING [django.request:222] Bad Request: /favicon.ico
+[29/Sep/2020 22:35:05] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 400 60890
+[29/Sep/2020 22:35:58] INFO [django.server:154] "GET /login HTTP/1.1" 301 0
+[29/Sep/2020 22:35:58] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:35:58] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 200 78
+[29/Sep/2020 22:35:58] WARNING [django.request:222] Not Found: /favicon.ico
+[29/Sep/2020 22:35:58] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[29/Sep/2020 22:36:28] INFO [django.server:154] "GET /login HTTP/1.1" 301 0
+[29/Sep/2020 22:36:28] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:36:29] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 200 78
+[29/Sep/2020 22:36:29] WARNING [django.request:222] Not Found: /favicon.ico
+[29/Sep/2020 22:36:29] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[29/Sep/2020 22:36:54] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:36:54] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:36:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:36:54] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 251
+[29/Sep/2020 22:37:03] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:37:03] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:37:03] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:37:03] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 251
+[29/Sep/2020 22:37:06] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:37:06] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:37:12] INFO [timelog.views:77] Employee name:Neenu
+[29/Sep/2020 22:37:12] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2780
+[29/Sep/2020 22:37:12] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 154
+[29/Sep/2020 22:37:18] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:37:18] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:37:21] INFO [timelog.views:77] Employee name:Geethu
+[29/Sep/2020 22:37:21] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 2781
+[29/Sep/2020 22:37:21] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 154
+[29/Sep/2020 22:37:22] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:37:22] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:37:27] INFO [timelog.views:55] Employee name:Geethu
+[29/Sep/2020 22:37:27] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=tUzsGUxMLuamjzSRx8ygZPeeXU6fll4lzlnQs4fbv739TDVcWSaPPZkLI7r9rDyO&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 22:37:29] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:37:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:38:06] INFO [timelog.views:55] Employee name:Geethu
+[29/Sep/2020 22:38:06] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=IUIx3v8bmL6eTbqjxqpeBMwGPFLBEFM3OlwVPFQA6oZ1tftEWa1NrWCdAS6vKXgw&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 22:38:11] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:38:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:38:25] WARNING [django.request:222] Not Found: /timelog/1
+[29/Sep/2020 22:38:25] WARNING [django.server:154] "GET /timelog/1 HTTP/1.1" 404 3360
+[29/Sep/2020 22:38:28] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:38:28] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:38:32] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:38:32] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:38:37] INFO [timelog.views:77] Employee name:Neenu
+[29/Sep/2020 22:38:37] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2780
+[29/Sep/2020 22:38:39] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 22:38:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 22:40:00] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:13] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:13] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:14] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:14] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:14] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:14] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:52] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:40:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:40:55] ERROR [django.request:222] Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: user_auth_usersession
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/user_auth/views.py", line 57, in logout
+    delete_user_sessions(request.session['user_id'])
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/user_auth/views.py", line 62, in delete_user_sessions
+    for user_session in user_sessions:
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 268, in __iter__
+    self._fetch_all()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: user_auth_usersession
+[29/Sep/2020 22:40:55] ERROR [django.server:154] "GET /logout/ HTTP/1.1" 500 126026
+[29/Sep/2020 22:41:18] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:41:18] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:41:20] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:41:20] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:41:20] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:41:20] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:41:33] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:41:33] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:41:33] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:41:33] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:42:03] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:42:03] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:42:03] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:42:03] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:42:30] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:42:30] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:42:30] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:42:30] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:42:43] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:42:43] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:42:43] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:42:52] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:42:52] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:43:02] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:43:02] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:43:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:43:08] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:43:08] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:43:23] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:43:23] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:43:23] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:43:23] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:44:40] ERROR [django.request:222] Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/user_auth/views.py", line 57, in logout
+    delete_user_sessions(request.session['user_id'])
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/user_auth/views.py", line 61, in delete_user_sessions
+    user_sessions = UserSession.objects.filter(user = Employee.objects.get(reference_pk=user))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1284, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1028, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1388, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'reference_pk' into field. Choices are: hours, login, name, password, reference, usersession
+[29/Sep/2020 22:44:40] ERROR [django.server:154] "GET /logout/ HTTP/1.1" 500 109498
+[29/Sep/2020 22:44:48] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:44:48] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:44:48] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:44:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:45:07] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:45:07] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:45:07] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:45:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:46:11] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:46:11] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:46:11] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:46:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:46:26] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:46:26] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:46:28] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:46:28] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 22:46:31] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 41, in index
+    return render(request, 'timelog/index.html', {'form': form, 'data': data, 'context': context})
+UnboundLocalError: local variable 'data' referenced before assignment
+[29/Sep/2020 22:46:31] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 65231
+[29/Sep/2020 22:46:46] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:46:46] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:46:46] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:46:48] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:46:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 22:47:15] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 22:47:15] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 22:47:15] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 22:47:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:09:19] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:09:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:09:22] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:09:22] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:09:24] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 23:09:24] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 23:09:28] ERROR [django.request:222] Internal Server Error: /timelog/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 42, in index
+    return redirect('login')
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/shortcuts.py", line 58, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+[29/Sep/2020 23:09:28] ERROR [django.server:154] "GET /timelog/ HTTP/1.1" 500 83497
+[29/Sep/2020 23:10:07] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 23:10:07] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:10:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:10:10] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 23:10:10] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:10:10] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:10:17] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 23:10:17] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 23:10:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 302 0
+[29/Sep/2020 23:10:19] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 23:11:06] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 23:11:06] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:11:06] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:11:09] INFO [django.server:154] "GET /login/ HTTP/1.1" 302 0
+[29/Sep/2020 23:11:09] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:11:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:11:14] INFO [timelog.views:56] Employee name:Neenu
+[29/Sep/2020 23:11:14] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=vytSbHva138yeqmYYFz5ZcB19Kopty4BBZhgXRdzLG1lOupjnpbEPmHyUXJjzQy4&month=01&year=2015 HTTP/1.1" 200 1545
+[29/Sep/2020 23:11:15] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:11:15] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:11:23] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 23:11:24] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 23:11:30] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:11:30] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:11:33] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:11:33] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:11:34] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:11:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:11:48] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 23:11:48] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:11:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:11:52] INFO [timelog.views:56] Employee name:Geethu
+[29/Sep/2020 23:11:52] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=OGeyi5pdg6UZmW3ducpEijIPj3dWPF2W52aPNDBucDVRpwr2zSXQxgT0XE29fgx4&month=01&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 23:11:53] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:11:53] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:11:56] INFO [timelog.views:78] Employee name:Geethu
+[29/Sep/2020 23:11:56] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 2781
+[29/Sep/2020 23:11:59] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:11:59] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2290
+[29/Sep/2020 23:13:02] INFO [django.server:154] "GET /admin/ HTTP/1.1" 302 0
+[29/Sep/2020 23:13:02] INFO [django.server:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[29/Sep/2020 23:13:03] INFO [django.server:154] "GET /static/admin/css/base.css HTTP/1.1" 200 16225
+[29/Sep/2020 23:13:03] INFO [django.server:154] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[29/Sep/2020 23:13:03] INFO [django.server:154] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+[29/Sep/2020 23:13:03] INFO [django.server:154] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[29/Sep/2020 23:13:03] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[29/Sep/2020 23:13:03] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[29/Sep/2020 23:13:09] ERROR [django.request:222] Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 398, in login
+    return LoginView.as_view(**defaults)(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/contrib/auth/views.py", line 61, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/contrib/auth/views.py", line 90, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 173, in send
+    return [
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 174, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/user_auth/models.py", line 24, in user_logged_in_handler
+    UserSession.objects.get_or_create(
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 486, in get_or_create
+    return self.get(**lookup), False
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1284, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1198, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1063, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1044, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query "hemaj": Must be "Employee" instance.
+[29/Sep/2020 23:13:09] ERROR [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 500 187585
+[29/Sep/2020 23:14:20] WARNING [django.security.csrf:222] Forbidden (CSRF token missing or incorrect.): /admin/login/
+[29/Sep/2020 23:14:20] WARNING [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2513
+[29/Sep/2020 23:14:26] INFO [django.server:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+[29/Sep/2020 23:14:30] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+[29/Sep/2020 23:14:30] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[29/Sep/2020 23:14:36] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1980
+[29/Sep/2020 23:14:45] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Sep/2020 23:14:45] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 6905
+[29/Sep/2020 23:14:45] INFO [django.server:154] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[29/Sep/2020 23:14:45] INFO [django.server:154] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[29/Sep/2020 23:14:45] INFO [django.server:154] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[29/Sep/2020 23:14:45] INFO [django.server:154] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /admin/timelog/hours/ HTTP/1.1" 200 8071
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/core.js HTTP/1.1" 200 7135
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/actions.js HTTP/1.1" 200 6538
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8972
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[29/Sep/2020 23:14:48] INFO [django.server:154] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[29/Sep/2020 23:14:50] INFO [django.server:154] "GET /admin/timelog/hours/45/change/ HTTP/1.1" 200 9395
+[29/Sep/2020 23:14:50] INFO [django.server:154] "GET /static/admin/css/forms.css HTTP/1.1" 200 8505
+[29/Sep/2020 23:14:50] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 23:14:50] INFO [django.server:154] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[29/Sep/2020 23:14:50] INFO [django.server:154] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[29/Sep/2020 23:14:50] INFO [django.server:154] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[29/Sep/2020 23:14:55] INFO [django.server:154] "POST /admin/timelog/hours/45/change/ HTTP/1.1" 302 0
+[29/Sep/2020 23:14:55] INFO [django.server:154] "GET /admin/timelog/hours/ HTTP/1.1" 200 8253
+[29/Sep/2020 23:14:55] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+[29/Sep/2020 23:14:55] INFO [django.server:154] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[29/Sep/2020 23:15:00] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:15:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2257
+[29/Sep/2020 23:15:05] INFO [timelog.views:56] Employee name:Geethu
+[29/Sep/2020 23:15:05] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=LxVqqqUYTpToJSuoaPZQ2Z5FFQfFkNMU2TRHVY6fPWUgMsSdfvx2hWgQjr4SKoh2&month=01&year=2015 HTTP/1.1" 200 1507
+[29/Sep/2020 23:15:07] INFO [timelog.views:36] Employee name:Geethu
+[29/Sep/2020 23:15:07] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2257
+[29/Sep/2020 23:16:55] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 95, in update
+    return render(request, 'timelog/update.html', {'form': form, 'user': user, 'context': context} )
+UnboundLocalError: local variable 'form' referenced before assignment
+[29/Sep/2020 23:16:55] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 64811
+[29/Sep/2020 23:16:59] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 302 0
+[29/Sep/2020 23:16:59] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 23:17:04] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 95, in update
+    return render(request, 'timelog/update.html', {'form': form, 'user': user, 'context': context} )
+UnboundLocalError: local variable 'form' referenced before assignment
+[29/Sep/2020 23:17:04] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 64811
+[29/Sep/2020 23:17:42] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 96, in update
+    return render(request, 'timelog/update.html', {'form': form, 'user': user, 'context': context} )
+UnboundLocalError: local variable 'user' referenced before assignment
+[29/Sep/2020 23:17:42] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 65203
+[29/Sep/2020 23:17:43] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 96, in update
+    return render(request, 'timelog/update.html', {'form': form, 'user': user, 'context': context} )
+UnboundLocalError: local variable 'user' referenced before assignment
+[29/Sep/2020 23:17:43] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 65203
+[29/Sep/2020 23:18:34] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 96, in update
+    return render(request, 'timelog/update.html', {'form': form, 'context': context} )
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/urls/resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update' with keyword arguments '{'pk': ''}' not found. 1 pattern(s) tried: ['timelog/update/(?P<pk>[0-9]+)$']
+[29/Sep/2020 23:18:34] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 155124
+[29/Sep/2020 23:19:25] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[29/Sep/2020 23:19:25] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:19:25] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:19:26] ERROR [django.request:222] Internal Server Error: /timelog/update/28
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 80, in update
+    logger.info("Employee name:" + user.name)
+NameError: name 'user' is not defined
+[29/Sep/2020 23:19:26] ERROR [django.server:154] "GET /timelog/update/28 HTTP/1.1" 500 64921
+[29/Sep/2020 23:19:58] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:19:58] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2780
+[29/Sep/2020 23:20:02] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:20:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:20:10] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:20:10] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:20:13] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:20:13] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2780
+[29/Sep/2020 23:20:15] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:20:15] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 2780
+[29/Sep/2020 23:20:17] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:20:17] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:20:19] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:20:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:20:22] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:20:22] INFO [django.server:154] "GET /timelog/update/30 HTTP/1.1" 200 2781
+[29/Sep/2020 23:20:27] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:20:27] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:20:29] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:20:29] INFO [django.server:154] "GET /timelog/update/31 HTTP/1.1" 200 2780
+[29/Sep/2020 23:20:30] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:20:30] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:21:09] INFO [timelog.views:56] Employee name:Neenu
+[29/Sep/2020 23:21:09] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Tc2Nn5MzOXIzRZgQpKfRFrtJ2oTjtrJ28KLV33uived5x20pDsvOR1EH4c90rEH9&month=02&year=2015 HTTP/1.1" 200 1506
+[29/Sep/2020 23:21:11] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:21:11] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:22:16] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:22:16] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:22:49] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:22:49] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:22:50] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:22:50] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:22:50] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[29/Sep/2020 23:22:51] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:22:51] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:23:12] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:23:12] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:23:14] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:23:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:23:15] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:23:15] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:23:16] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:23:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:23:17] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:23:17] INFO [django.server:154] "GET /timelog/update/30 HTTP/1.1" 200 1928
+[29/Sep/2020 23:23:19] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:23:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:23:30] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:23:30] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:24:28] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:24:28] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:24:28] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:24:28] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:24:29] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:24:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:24:30] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:24:30] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:25:14] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:25:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:25:19] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:25:19] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1927
+[29/Sep/2020 23:25:51] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:25:51] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1933
+[29/Sep/2020 23:25:52] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:25:52] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:25:54] INFO [timelog.views:56] Employee name:Neenu
+[29/Sep/2020 23:25:54] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=a5ovuqLRIkfHr8mij5Xpkm5ljYn7XnVbpD7DaotApBKd7b6RxNdmwWgjlMDOVATi&month=02&year=2015 HTTP/1.1" 200 1506
+[29/Sep/2020 23:25:56] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:25:56] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:26:00] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:26:00] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1933
+[29/Sep/2020 23:26:09] INFO [timelog.views:56] Employee name:Neenu
+[29/Sep/2020 23:26:09] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=FHyWigmcmAnwnyKadNSHqZsWo7y8AfAsUfh4Ye4V3RS23BuJrv8ECzDUqVOPysyz&month=03&year=2015 HTTP/1.1" 200 1546
+[29/Sep/2020 23:26:11] INFO [timelog.views:80] Employee name:Neenu
+[29/Sep/2020 23:26:11] INFO [django.server:154] "GET /timelog/update/30 HTTP/1.1" 200 1934
+[29/Sep/2020 23:26:14] INFO [timelog.views:36] Employee name:Neenu
+[29/Sep/2020 23:26:14] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[29/Sep/2020 23:26:17] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[29/Sep/2020 23:26:17] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[29/Sep/2020 23:26:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 302 0
+[29/Sep/2020 23:26:21] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945

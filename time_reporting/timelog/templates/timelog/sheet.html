@@ -28,16 +28,15 @@
     <div class="hours" id="hours">
       {% if data %}
         {% for d in data %}
-        <p>Month {{ d.month }} Year {{ d.year }}</p>
-        <p>{{ form.week1.label_tag }}{{ d.week1 }}</p>
+        <p>{{ form.week1.label_tag }} {{ d.week1 }}</p>
         <span class="red">{{ form.week1.errors|striptags }}</span>
-        <p>{{ form.week2.label_tag }}{{ d.week2 }}</p>
+        <p>{{ form.week2.label_tag }} {{ d.week2 }}</p>
         <span class="red">{{ form.week2.errors|striptags }}</span>
-        <p>{{ form.week3.label_tag }}{{ d.week3 }}</p>
+        <p>{{ form.week3.label_tag }} {{ d.week3 }}</p>
         <span class="red">{{ form.week3.errors|striptags }}</span>
-        <p>{{ form.week4.label_tag }}{{ d.week4 }}</p>
+        <p>{{ form.week4.label_tag }} {{ d.week4 }}</p>
         <span class="red">{{ form.week4.errors|striptags }}</span>
-        <p>{{ form.total_hours.label_tag }}{{ d.total_hours }}</p>
+        <p>{{ form.total_hours.label_tag }} {{ d.total_hours }}</p>
         <p>{{ form.status.label_tag }}{% if d.status == "Submitted" %}If you want to edit the timesheet, please go<a href="{% url 'timelog:update' pk=d.id %}"> here</a>{% else %}Your timesheet has been marked as {{ d.status }}{% endif %}</p>
         {% endfor %}
       {% else %}

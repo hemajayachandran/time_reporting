@@ -47,9 +47,6 @@ class Hours(models.Model):
 
     class Meta:
         verbose_name_plural = "Hours"
-        unique_together = [
-            ("month", "year"),
-        ]
 
     def __str__(self):
         return "%s" %(self.reference_pk)

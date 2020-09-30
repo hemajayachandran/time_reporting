@@ -5,61 +5,67 @@
 <link rel="stylesheet" type="text/css" href="{% static 'timelog/css/index.css' %}">
 
 <div class="container">
-<h1>Monthly Employee Timesheet</h1>
-<p>Employee Name: <b>{{ context.user.name }}</b> <a href="{% url 'logout' %}">Logout</a></p>
-<div class="form-group">
-  <form method="get" action="{% url 'timelog:create'%}">
-  {% csrf_token %}
-  <div class="my">
-    <p>{{ form.month.label_tag }}
-      <select name="month">
-        {% for choice in form.fields.month.choices %}
-        {% if choice.0 < context.reporting_month %}
-        <option value="{{ choice.0 }}" name="monthId">{{ choice.1 }}</option>
-        {% endif %}
-        {% endfor %}
-      </select>
-      {{ form.year.label_tag }}
-      <select name="year">
-        {% for choice in form.year.field.choices %}
-        {% if choice.0 <= context.reporting_year %}
-        <option value="{{ choice.0 }}">{{ choice.1 }}</option>
-        {% endif %}
-        {% endfor %}
-      </select>
-      <button type="submit"> Submit your timesheet</button>
-    </p>
+  <h1>Monthly Employee Timesheet</h1>
+  <p>Employee Name: <b>{{ context.user.name }}</b> <a href="{% url 'logout' %}">Logout</a></p>
+  <div class="form-group">
+    <form method="get" action="{% url 'timelog:create'%}">
+    {% csrf_token %}
+    <div class="my">
+      <p>{{ form.month.label_tag }}
+        <select name="month">
+          {% for choice in form.fields.month.choices %}
+          {% if choice.0 < context.reporting_month %}
+          <option value="{{ choice.0 }}" name="monthId">{{ choice.1 }}</option>
+          {% endif %}
+          {% endfor %}
+        </select>
+        {{ form.year.label_tag }}
+        <select name="year">
+          {% for choice in form.year.field.choices %}
+          {% if choice.0 <= context.reporting_year %}
+          <option value="{{ choice.0 }}">{{ choice.1 }}</option>
+          {% endif %}
+          {% endfor %}
+        </select>
+        <button type="submit"> Submit your timesheet</button>
+      </p>
+    </div>
   </div>
-</div>
 
-<table id="example" >
-  <tr>
-    <th>Month</th>
-    <th>Year</th>
-    <th>Status</th>
-  </tr>
-  {% for d in data %}
-  <tr>
-  <td>{{ d.month }}</td>
-  <td>{{ d.year }}</td>
-  {% if d.status == 'Submitted' %}
-  <td><a href="{% url 'timelog:update' pk=d.id %}">{{ d.status }}</a></td>
-  {% else %}
-  <td>{{ d.status }}</td>
-  {% endif %}
-  </tr>
-  {% endfor %}
-</table>
-<div class="pagination">
-  <a href="#">&laquo;</a>
-  <a href="{% url 'timelog:index'%}">1</a>
-  <a href="#">2</a>
-  <a href="#">3</a>
-  <a href="#">4</a>
-  <a href="#">5</a>
-  <a href="#">6</a>
-  <a href="#">&raquo;</a>
-</div>
-</div>
+  <table>
+    <tr>
+      <th>Month</th>
+      <th>Year</th>
+      <th>Status</th>
+    </tr>
+    {% for d in data %}
+    <tr>
+    <td>{{ d.month }}</td>
+    <td>{{ d.year }}</td>
+    {% if d.status == 'Submitted' %}
+    <td><a href="{% url 'timelog:update' pk=d.id %}">{{ d.status }}</a></td>
+    {% else %}
+    <td>{{ d.status }}</td>
+    {% endif %}
+    </tr>
+    {% endfor %}
+    {% if page_obj.paginator.num_pages > 1 %}
 
+    {% if page_obj.has_previous %}
+
+        <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+
+    {% endif %}
+
+    <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+
+    {% if page_obj.has_next %}
+
+        <a href="?page={{ page_obj.next_page_number }}">next</a>
+
+    {% endif %}
+
+    {% endif %}
+  </table>
+</div>
 {% endblock %}
