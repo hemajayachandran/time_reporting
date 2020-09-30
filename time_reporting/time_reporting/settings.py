@@ -124,9 +124,6 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'root'),
-]
 
 # Define maximum hours an employee can report per week
 MAX_HOURS = 40.00

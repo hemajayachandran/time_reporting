@@ -1925,3 +1925,647 @@ NameError: name 'user' is not defined
 [29/Sep/2020 23:26:17] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
 [29/Sep/2020 23:26:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 302 0
 [29/Sep/2020 23:26:21] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[30/Sep/2020 20:37:21] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 20:37:21] INFO [timelog.views:28] Employee name:Neenu
+[30/Sep/2020 20:37:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3744
+[30/Sep/2020 20:37:21] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 20:54:35] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[30/Sep/2020 20:54:35] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[30/Sep/2020 20:54:35] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 304 0
+[30/Sep/2020 20:59:13] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 20:59:13] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 20:59:13] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4005
+[30/Sep/2020 20:59:13] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 20:59:13] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 20:59:13] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 20:59:13] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 20:59:13] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 20:59:13] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 20:59:16] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 20:59:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4005
+[30/Sep/2020 20:59:16] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 20:59:16] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 20:59:16] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 20:59:16] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 21:00:19] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:00:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4005
+[30/Sep/2020 21:00:19] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 21:00:19] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 21:00:19] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 21:00:19] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 21:00:41] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:00:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4000
+[30/Sep/2020 21:00:41] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 21:00:41] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 21:00:41] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 21:00:41] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 21:00:42] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:00:42] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4000
+[30/Sep/2020 21:00:42] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 21:00:42] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 21:00:42] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 21:00:42] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 21:00:42] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:00:42] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4000
+[30/Sep/2020 21:00:42] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 21:00:42] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 21:00:42] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 21:00:42] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 21:00:42] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:00:42] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4000
+[30/Sep/2020 21:00:42] WARNING [django.request:222] Not Found: /timelog/jquery.slim.min.js
+[30/Sep/2020 21:00:42] WARNING [django.server:154] "GET /timelog/jquery.slim.min.js HTTP/1.1" 404 3411
+[30/Sep/2020 21:00:42] WARNING [django.request:222] Not Found: /timelog/table-sortable.js
+[30/Sep/2020 21:00:42] WARNING [django.server:154] "GET /timelog/table-sortable.js HTTP/1.1" 404 3408
+[30/Sep/2020 21:03:46] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:03:46] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4041
+[30/Sep/2020 21:04:12] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:04:12] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4060
+[30/Sep/2020 21:04:16] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:04:16] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 4060
+[30/Sep/2020 21:18:28] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:18:28] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3740
+[30/Sep/2020 21:19:43] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:19:43] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:19:45] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:19:45] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:01] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:01] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:02] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:02] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:02] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:02] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:02] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:35] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:35] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:36] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:36] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:36] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:36] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:36] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:36] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:36] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:36] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:47] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:47] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:48] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:20:48] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:20:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:20] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:20] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:21] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:21] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:21] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:21] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:23] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:21:23] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Ijoy5vQwy28nJ8OpsGOaU0xh3660OHEcXR7GLtyffjDTpbyYGo476AIf5UmHMUCj&month=01&year=2015 HTTP/1.1" 200 1545
+[30/Sep/2020 21:21:23] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:21:24] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:24] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:26] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:26] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:26] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:26] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:21:34] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 302 0
+[30/Sep/2020 21:21:34] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[30/Sep/2020 21:21:34] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 200 78
+[30/Sep/2020 21:21:34] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:21:34] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:21:54] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 21:21:54] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:21:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:21:54] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 361
+[30/Sep/2020 21:21:54] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:21:54] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:21:57] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:21:57] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:22:13] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:22:13] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:22:13] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 346
+[30/Sep/2020 21:22:25] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:22:25] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:22:25] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 346
+[30/Sep/2020 21:22:31] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:22:31] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:22:31] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:22:31] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:22:32] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:22:32] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:22:32] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:22:32] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:22:32] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:22:32] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:23:24] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:23:24] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:23:24] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 477
+[30/Sep/2020 21:23:56] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:23:56] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:23:56] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 557
+[30/Sep/2020 21:24:30] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:24:30] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:24:30] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 577
+[30/Sep/2020 21:24:38] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:38] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:38] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:38] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:39] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:39] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:39] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:39] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:39] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:41] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:24:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:24:50] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:24:50] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=sHME6FNGoFJOjihwM7qIIlXbFR7NzhR8HfvMMDvp5WekZl150PGFUV89HFnuxuPf&month=01&year=2015 HTTP/1.1" 200 1545
+[30/Sep/2020 21:24:54] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:24:54] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1507
+[30/Sep/2020 21:24:54] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 154
+[30/Sep/2020 21:24:54] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:24:54] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:28:30] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:28:30] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 60, in create
+    return render(request, 'timelog/sheet.html', {'form': form, 'context': context, 'data': data})
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/defaulttags.py", line 810, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/template/base.py", line 522, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 75: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+[30/Sep/2020 21:28:30] ERROR [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 500 194708
+[30/Sep/2020 21:28:55] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:28:55] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:28:57] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:28:57] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:29:39] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:29:39] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:29:40] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:29:40] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:29:40] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:29:40] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:29:40] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:29:40] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rpCM8WtbkXc7tApsr0DUw9u1nY1lgddGiVUogKzZo9uQbHRlbyCwPRTZGEeF2FUU&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:29:41] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:29:41] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:29:41] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:29:43] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:29:43] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=E6XNmyxNAxZJDCCHHkxhNbtXxUmOiHldvCfpumDBEJhslJ4ArSwT6TSVQAz8492r&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:29:43] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:29:43] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:30:20] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:30:20] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:30:20] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:30:22] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:30:22] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:30:22] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:30:22] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:30:23] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:30:23] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:30:27] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:30:27] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:30:29] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:30:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:30:30] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[30/Sep/2020 21:30:30] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[30/Sep/2020 21:30:35] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 21:30:35] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:30:35] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:30:36] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:30:36] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1780
+[30/Sep/2020 21:31:06] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:06] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:06] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:06] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:07] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:07] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:07] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:07] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:36] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:36] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:36] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:37] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:37] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:37] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:31:37] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:31:37] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:32:10] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:32:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:32:10] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:32:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:32:10] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:32:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:32:11] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:32:11] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=V512R9kyZlVY8aZ8Z0t4TJQGv417DI0uMBjEZXqm3xdHQhr1JysGcrfEOKerpaHI&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:32:18] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:32:18] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:32:18] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:32:25] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:32:25] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=T3uIFiRq06f1TY0YvBna73OtmdqKkl4TKzMkN6Xe4ixKB5sRf9mMqLdrFTD46NL7&month=03&year=2020 HTTP/1.1" 200 1781
+[30/Sep/2020 21:32:25] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:32:25] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:32:29] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:32:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:32:30] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 21:32:30] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 1934
+[30/Sep/2020 21:32:30] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:32:30] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:32:31] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:32:31] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:32:32] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 21:32:32] INFO [django.server:154] "GET /timelog/update/44 HTTP/1.1" 200 1934
+[30/Sep/2020 21:32:32] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:32:32] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:32:33] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:32:33] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:32:35] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 21:32:35] INFO [django.server:154] "GET /timelog/update/44 HTTP/1.1" 200 1934
+[30/Sep/2020 21:32:36] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:32:36] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:32:37] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:32:37] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=lTPinsRxVg7dlg0hUIgjHNV05HMo56TUcp7UvgXlZspW3nsaEgfV0vkYonZIRyA8&month=01&year=2015 HTTP/1.1" 200 1742
+[30/Sep/2020 21:32:37] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:32:37] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:32:39] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:32:39] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:33:44] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:44] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:44] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:33:44] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:33:45] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:45] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:46] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:46] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:46] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:46] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:46] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:46] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:46] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:46] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:47] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:47] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:33:47] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:33:47] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1714
+[30/Sep/2020 21:34:29] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:29] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:35] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:35] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:42] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:42] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:42] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:42] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:42] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:42] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:42] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:42] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4f9RRqXtbDat529zvnvLia31EcOrZUUqVLrtZe3hfPscN9BsfVunBSsZXS1LLmBE&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:44] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:34:44] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:34:44] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:34:46] INFO [django.server:154] "GET /logout/ HTTP/1.1" 302 0
+[30/Sep/2020 21:34:46] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[30/Sep/2020 21:34:55] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 21:34:55] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:34:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:34:58] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:34:58] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=aBIGbrhaZf72J2XG2pXV6XtzyKcDw3X7170ijfnY3rpLr9pzMXWxpFSxRqpXivEl&month=01&year=2015 HTTP/1.1" 200 1717
+[30/Sep/2020 21:34:58] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:34:58] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:35:03] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:35:03] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1755
+[30/Sep/2020 21:35:05] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:35:05] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1755
+[30/Sep/2020 21:35:05] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:35:05] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1755
+[30/Sep/2020 21:35:05] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:35:05] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1755
+[30/Sep/2020 21:36:50] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:36:50] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1755
+[30/Sep/2020 21:36:50] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 317
+[30/Sep/2020 21:37:22] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:37:22] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1755
+[30/Sep/2020 21:37:22] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 531
+[30/Sep/2020 21:37:52] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:37:52] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1781
+[30/Sep/2020 21:37:52] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:38:01] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:38:01] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=1wVcp1GCXhxMjw4ltfjQpyc2wFam8WUJg4Ek5ZolEy2iZzOUHXzNB8n0ytq369SQ&month=01&year=2015 HTTP/1.1" 200 1750
+[30/Sep/2020 21:38:01] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:39:04] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:39:04] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:39:04] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 577
+[30/Sep/2020 21:39:08] INFO [timelog.views:67] Employee name:Neenu
+[30/Sep/2020 21:39:08] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1933
+[30/Sep/2020 21:39:08] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:39:09] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:39:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:39:13] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:39:13] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=PhQuUddAHlwfQ4WeAE0c3oxELDVn9vLj4PzCAbVjoC1Lw7GNOmg9fYICNrb47IJq&month=02&year=2015 HTTP/1.1" 200 1993
+[30/Sep/2020 21:40:25] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:40:25] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:40:27] INFO [timelog.views:67] Employee name:Neenu
+[30/Sep/2020 21:40:27] INFO [django.server:154] "GET /timelog/update/28 HTTP/1.1" 200 1933
+[30/Sep/2020 21:40:27] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:40:29] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:40:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:40:41] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:40:41] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=uOQeojLQdYjcZPsg8QaDYWuQ6dfGGQXqJmzm4htzUfOIFScPmyqAawFO81vnE3Vx&month=01&year=2015 HTTP/1.1" 200 2032
+[30/Sep/2020 21:40:43] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:40:43] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:40:43] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:40:52] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:40:52] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=UDIX1i3SnLU5efdBQB6nszle8wcs8oov9br5HgLB42pBUiXa4jmkE9wcaks96BmC&month=05&year=2019 HTTP/1.1" 200 2032
+[30/Sep/2020 21:40:52] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:40:54] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:40:54] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:41:03] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:41:03] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Wke1yx4bVMdCKOxeGKkPVHFiyQd9FAYzbSX9evMUC3I8qRhNUsAM7hQgAEtQDNWG&month=05&year=2018 HTTP/1.1" 200 2667
+[30/Sep/2020 21:41:38] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:41:38] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:41:40] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:41:40] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=nEqrOuPlreEF8ROQpIzsIBROPmEkw75LCc9zusx48v9bOUypDqPpUb2MRaU1uk3S&month=01&year=2015 HTTP/1.1" 200 2032
+[30/Sep/2020 21:41:40] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:42:07] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:42:07] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=nEqrOuPlreEF8ROQpIzsIBROPmEkw75LCc9zusx48v9bOUypDqPpUb2MRaU1uk3S&month=01&year=2015 HTTP/1.1" 200 2128
+[30/Sep/2020 21:42:07] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:44:25] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:44:25] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=nEqrOuPlreEF8ROQpIzsIBROPmEkw75LCc9zusx48v9bOUypDqPpUb2MRaU1uk3S&month=01&year=2015 HTTP/1.1" 200 2128
+[30/Sep/2020 21:44:25] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:44:26] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:44:26] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=nEqrOuPlreEF8ROQpIzsIBROPmEkw75LCc9zusx48v9bOUypDqPpUb2MRaU1uk3S&month=01&year=2015 HTTP/1.1" 200 2128
+[30/Sep/2020 21:44:26] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:44:26] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=nEqrOuPlreEF8ROQpIzsIBROPmEkw75LCc9zusx48v9bOUypDqPpUb2MRaU1uk3S&month=01&year=2015 HTTP/1.1" 200 2128
+[30/Sep/2020 21:44:26] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:44:26] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=nEqrOuPlreEF8ROQpIzsIBROPmEkw75LCc9zusx48v9bOUypDqPpUb2MRaU1uk3S&month=01&year=2015 HTTP/1.1" 200 2128
+[30/Sep/2020 21:44:40] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:44:40] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:44:40] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:44:46] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:44:46] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4ZwVljxhDgiuIfTS4Xjs41s4UieXaa2Djxf31hf0kxN0oiDriFzpgBD2W6uE8n0K&month=02&year=2015 HTTP/1.1" 200 2050
+[30/Sep/2020 21:46:29] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:46:29] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4ZwVljxhDgiuIfTS4Xjs41s4UieXaa2Djxf31hf0kxN0oiDriFzpgBD2W6uE8n0K&month=02&year=2015 HTTP/1.1" 200 2075
+[30/Sep/2020 21:46:29] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:47:24] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:47:24] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4ZwVljxhDgiuIfTS4Xjs41s4UieXaa2Djxf31hf0kxN0oiDriFzpgBD2W6uE8n0K&month=02&year=2015 HTTP/1.1" 200 2082
+[30/Sep/2020 21:47:25] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:48:45] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:48:45] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=4ZwVljxhDgiuIfTS4Xjs41s4UieXaa2Djxf31hf0kxN0oiDriFzpgBD2W6uE8n0K&month=02&year=2015 HTTP/1.1" 200 2050
+[30/Sep/2020 21:48:45] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:48:47] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:48:47] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:48:47] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:48:49] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:48:49] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=7i4sblXQGnRogPaCsCEe6DR5nt7nmKoomQNARjFznEmUWSUbGkUbid23phn4kXmv&month=01&year=2015 HTTP/1.1" 200 2128
+[30/Sep/2020 21:48:51] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:48:51] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:49:00] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:49:00] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2773
+[30/Sep/2020 21:49:45] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:49:45] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2817
+[30/Sep/2020 21:50:15] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:50:15] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2817
+[30/Sep/2020 21:50:15] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:50:34] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:50:34] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2832
+[30/Sep/2020 21:50:50] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:50:50] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2837
+[30/Sep/2020 21:50:51] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:50:51] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2837
+[30/Sep/2020 21:50:51] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:50:51] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2837
+[30/Sep/2020 21:50:51] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:50:51] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2837
+[30/Sep/2020 21:51:37] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:37] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:37] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:51:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:39] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:39] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:39] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:39] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:39] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:39] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:46] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:46] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:46] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:51:47] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2857
+[30/Sep/2020 21:51:55] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:51:55] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:51:55] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:51:58] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:51:58] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=lbJo5XylqVP5r8wFfBWKVos0aprtaMchcH10dLE9u77O9fYyZ9Vme6RYt5ENWeTv&month=02&year=2015 HTTP/1.1" 200 2858
+[30/Sep/2020 21:51:58] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:51:58] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:52:01] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:52:01] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=lbJo5XylqVP5r8wFfBWKVos0aprtaMchcH10dLE9u77O9fYyZ9Vme6RYt5ENWeTv&month=02&year=2015 HTTP/1.1" 200 2858
+[30/Sep/2020 21:52:01] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:52:01] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=lbJo5XylqVP5r8wFfBWKVos0aprtaMchcH10dLE9u77O9fYyZ9Vme6RYt5ENWeTv&month=02&year=2015 HTTP/1.1" 200 2858
+[30/Sep/2020 21:52:10] ERROR [django.request:222] Internal Server Error: /timelog/submit/
+Traceback (most recent call last):
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/hemaj/Documents/MyWorks/Django/trydjango/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hemaj/Documents/MyWorks/Django/accenture/time_reporting/timelog/views.py", line 60, in create
+    return render(request, 'timelog/sheet.html', {'form': form, 'context': context, 'data': data})
+UnboundLocalError: local variable 'context' referenced before assignment
+[30/Sep/2020 21:52:10] ERROR [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=lbJo5XylqVP5r8wFfBWKVos0aprtaMchcH10dLE9u77O9fYyZ9Vme6RYt5ENWeTv&month=02&year=2015 HTTP/1.1" 500 65617
+[30/Sep/2020 21:52:10] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:52:10] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:52:23] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 302 0
+[30/Sep/2020 21:52:23] INFO [django.server:154] "GET /login/ HTTP/1.1" 200 945
+[30/Sep/2020 21:52:23] INFO [django.server:154] "GET /static/registration/css/login.css HTTP/1.1" 200 78
+[30/Sep/2020 21:52:23] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:52:23] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:52:48] INFO [django.server:154] "POST /login/ HTTP/1.1" 302 0
+[30/Sep/2020 21:52:48] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:52:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:52:48] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 200 577
+[30/Sep/2020 21:52:48] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:52:48] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:52:51] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:52:51] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=zzOvqNSjA3ij8Aq3xXC6HQEtch228JUpO4JztTiHBTCWGje6cP5dTpv7fJZ2w3DZ&month=02&year=2015 HTTP/1.1" 200 2858
+[30/Sep/2020 21:52:51] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 200 531
+[30/Sep/2020 21:52:51] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:52:51] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:53:32] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:53:32] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=zzOvqNSjA3ij8Aq3xXC6HQEtch228JUpO4JztTiHBTCWGje6cP5dTpv7fJZ2w3DZ&month=02&year=2015 HTTP/1.1" 200 2859
+[30/Sep/2020 21:53:33] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:53:33] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=zzOvqNSjA3ij8Aq3xXC6HQEtch228JUpO4JztTiHBTCWGje6cP5dTpv7fJZ2w3DZ&month=02&year=2015 HTTP/1.1" 200 2859
+[30/Sep/2020 21:53:33] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:53:33] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=zzOvqNSjA3ij8Aq3xXC6HQEtch228JUpO4JztTiHBTCWGje6cP5dTpv7fJZ2w3DZ&month=02&year=2015 HTTP/1.1" 200 2859
+[30/Sep/2020 21:53:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:53:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2858
+[30/Sep/2020 21:53:38] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:53:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:53:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2858
+[30/Sep/2020 21:53:38] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:53:38] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2858
+[30/Sep/2020 21:54:52] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:54:52] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2883
+[30/Sep/2020 21:54:53] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:54:53] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2883
+[30/Sep/2020 21:54:53] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:54:53] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 2883
+[30/Sep/2020 21:55:10] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:55:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=Q1gGMeZ7Y1Ta9SAGSj1WW5PWzCR0ANRc5zZOscHQFioGPVkf61hT8F0UBq7Hy0Pj&month=01&year=2019 HTTP/1.1" 200 1955
+[30/Sep/2020 21:55:20] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:55:20] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 200 2060
+[30/Sep/2020 21:55:20] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:55:48] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:55:48] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3752
+[30/Sep/2020 21:55:49] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:56:40] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:56:40] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=FsND3IVCxFGyNiDcxMHolqrEUfglDbiAU0wLJGDleWb4tlnLLuXlx0CCW3w2BogH&month=05&year=2018 HTTP/1.1" 200 1955
+[30/Sep/2020 21:56:49] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:56:50] INFO [timelog.views:54] Month: 05 Year: 2018
+Week1: 40 Week2: 40 Week3: 40 Week4: 40
+Total Hours: 120
+[30/Sep/2020 21:56:50] INFO [timelog.views:58] Timesheet submitted successfully
+[30/Sep/2020 21:56:50] INFO [django.server:154] "POST /timelog/submit/ HTTP/1.1" 302 0
+[30/Sep/2020 21:56:50] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:56:50] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3876
+[30/Sep/2020 21:57:09] INFO [timelog.views:43] Employee name:Neenu
+[30/Sep/2020 21:57:09] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=rPuqfgcgjiUHXsuDYf2S4VVrkHxO6saTGndyVeUZ0zpdDveccXiPgv6pmvNv4F80&month=01&year=2015 HTTP/1.1" 200 1519
+[30/Sep/2020 21:57:10] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:57:13] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 21:57:13] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3876
+[30/Sep/2020 21:57:44] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 21:57:44] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=zzOvqNSjA3ij8Aq3xXC6HQEtch228JUpO4JztTiHBTCWGje6cP5dTpv7fJZ2w3DZ&month=02&year=2015 HTTP/1.1" 200 2027
+[30/Sep/2020 21:57:44] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 21:58:21] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:58:21] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:58:21] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 21:58:45] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 21:58:45] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 1934
+[30/Sep/2020 21:58:45] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 21:58:45] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 21:58:53] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 21:58:53] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 21:59:46] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 21:59:46] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 1934
+[30/Sep/2020 22:02:00] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:02:00] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:02:01] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0
+[30/Sep/2020 22:02:02] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:02:02] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 2968
+[30/Sep/2020 22:02:02] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 22:02:25] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:02:25] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 3037
+[30/Sep/2020 22:02:59] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:02:59] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 2067
+[30/Sep/2020 22:03:06] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:03:06] INFO [timelog.views:76] Month: 03 Year: 2020
+Week1: 10.00 Week2: 10.00 Week3: 10.00 Week4: 20.00
+Total Hours: 50.00
+[30/Sep/2020 22:03:06] INFO [timelog.views:80] Timesheet updated successfully
+[30/Sep/2020 22:03:06] INFO [django.server:154] "POST /timelog/update/43 HTTP/1.1" 302 0
+[30/Sep/2020 22:03:06] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:03:06] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:03:08] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:03:08] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 2067
+[30/Sep/2020 22:03:10] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:03:10] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:04:08] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:04:08] INFO [django.server:154] "GET /timelog/update/44 HTTP/1.1" 200 2067
+[30/Sep/2020 22:04:08] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 22:04:08] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 22:04:09] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:04:09] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:04:10] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 22:04:10] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=I9169Agt2C2RN3EaAINPalRoNKCjTA62XEWacGGR3smulMsdfAgWmUI2QczjhUPC&month=01&year=2015 HTTP/1.1" 200 1477
+[30/Sep/2020 22:04:10] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 22:04:10] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 22:04:13] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:04:13] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:04:24] INFO [timelog.views:43] Employee name:Geethu
+[30/Sep/2020 22:04:24] INFO [django.server:154] "GET /timelog/submit/?csrfmiddlewaretoken=FwH35IOfpsASsEmRSuXo44Ch5cFpZNCpU1C78OeDqiUv0naUxmqvgDtV8ECpn7lZ&month=03&year=2020 HTTP/1.1" 200 1516
+[30/Sep/2020 22:04:24] WARNING [django.request:222] Not Found: /favicon.ico
+[30/Sep/2020 22:04:24] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2937
+[30/Sep/2020 22:04:29] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:04:29] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:04:31] INFO [timelog.views:67] Employee name:Geethu
+[30/Sep/2020 22:04:31] INFO [django.server:154] "GET /timelog/update/43 HTTP/1.1" 200 2067
+[30/Sep/2020 22:04:31] INFO [django.server:154] "GET /static/timelog/css/sheet.css HTTP/1.1" 304 0
+[30/Sep/2020 22:04:32] INFO [timelog.views:26] Employee name:Geethu
+[30/Sep/2020 22:04:32] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 2265
+[30/Sep/2020 22:25:19] INFO [timelog.views:26] Employee name:Neenu
+[30/Sep/2020 22:25:19] INFO [django.server:154] "GET /timelog/ HTTP/1.1" 200 3876
+[30/Sep/2020 22:25:19] INFO [django.server:154] "GET /static/timelog/css/index.css HTTP/1.1" 304 0

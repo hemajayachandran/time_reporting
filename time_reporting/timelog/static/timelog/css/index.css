@@ -13,7 +13,24 @@ html {
     color: green;
 }
 
-table {
+table#status {
   margin-left: auto;
   margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+}
+
+table#status td, table#status th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table#status th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
 }

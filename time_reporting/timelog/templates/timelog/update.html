@@ -27,20 +27,36 @@
       </p>
     </div>
     </div>
-    <div class="hours">
-      <p>{{ form.week1.label_tag }}{{ form.week1 }}</p>
-      <span class="red">{{ form.week1.errors|striptags }}</span>
-      <p>{{ form.week2.label_tag }}{{ form.week2 }}</p>
-      <span class="red">{{ form.week2.errors|striptags }}</span>
-      <p>{{ form.week3.label_tag }}{{ form.week3 }}</p>
-      <span class="red">{{ form.week3.errors|striptags }}</span>
-      <p>{{ form.week4.label_tag }}{{ form.week4 }}</p>
-      <span class="red">{{ form.week4.errors|striptags }}</span>
-      <p>{{ form.total_hours.label_tag }}{{ form.total_hours }}</p>
-      <p>{{ form.status.label_tag }}{{ form.status }}</p>
-    </div>
 
-    <div class="submit-button"><button type="submit" id="submit_button">Update Timesheet</button></div>
+    <table id="sheet">
+      <tr>
+        <th>Weeks</th>
+        <th>Hours</th>
+      </tr>
+    <tr>
+      <td>{{ form.week1.label }}</td>
+      <td>{{ form.week1 }}<span class="red">{{ form.week1.errors|striptags }}</span></td>
+    </tr>
+    <tr>
+      <td>{{ form.week2.label }}</td>
+      <td>{{ form.week2 }}<span class="red">{{ form.week1.errors|striptags }}</span></td>
+    </tr>
+    <tr>
+      <td>{{ form.week3.label }}</td>
+      <td>{{ form.week3 }}<span class="red">{{ form.week1.errors|striptags }}</span></td>
+    </tr>
+    <tr>
+      <td>{{ form.week4.label }}</td>
+      <td>{{ form.week4 }}<span class="red">{{ form.week1.errors|striptags }}</span></td>
+    </tr>
+    <tr>
+      <td>{{ form.total_hours.label }}</td>
+      <td>{{ form.total_hours }}</td>
+    </tr>
+    <tr>
+    <td colspan="2" text-align="center"><div class="submit-button" align-items="center"><button type="submit" id="submit_button">Update Timesheet</button></div></td>
+    </tr>
+    </table>
     <a href="{% url 'timelog:index' %}">Back to Home</a>
     <div>
     {% if success %}

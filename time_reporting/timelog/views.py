@@ -17,16 +17,6 @@ logger_e = logging.getLogger('errors')
 # Create your views here.
 
 def index(request, *args, **kwargs):
-    print(request)
-    #data = Hours.objects.all()
-    #data = get_object_or_404(Hours, reference_pk=request.session['user_id'])
-    #print(data)
-    #paginator = Paginator(data, 5)
-
-    #page_number = request.GET.get('page')
-    #print(page_number)
-    #page_obj = paginator.get_page(page_number)
-
     form = TimesheetForm(request.POST or None)
     context = {}
     context['reporting_year'], context['reporting_month'] = month_year(settings.REPORTING_DATE)
@@ -43,14 +33,11 @@ def index(request, *args, **kwargs):
 
 def create(request, *args, **kwargs):
     form = TimesheetForm(request.POST or None)
-    print(request.session)
-    print(request.session['user_id'])
     if 'user_id' in request.session:
         user = get_user(request)
         context = {}
         context['reporting_year'], context['reporting_month'] = month_year(settings.REPORTING_DATE)
         context['m'] = request.GET.get('month')
-        print(context['m'])
         context['y'] = request.GET.get('year')
         context['user'] = user
         logger.info("Employee name:" + user.name)
@@ -82,10 +69,8 @@ def update(request, pk):
         form = TimesheetForm(request.POST or None, instance=hour)
         context['pk'] = pk
         context['year'], context['month'] = hour.year, hour.month
-        print(context['year'])
         context['reporting_year'], context['reporting_month'] = month_year(settings.REPORTING_DATE)
         if form.is_valid():
-            print("Inside validation")
             obj = form.save(commit=False)
             obj.save()
             logger.info("Month: " + obj.month + " " + "Year: " + obj.year +
